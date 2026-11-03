@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 520" role="img" aria-labelledby="title desc">
+  <title id="title">Determined athlete reaching for a medal</title>
+  <desc id="desc">A stylized teal and coral illustration of an athlete working hard while a gold medal waits ahead.</desc>
+  <rect width="640" height="520" rx="28" fill="#dff4f2"/>
+  <circle cx="510" cy="116" r="78" fill="#b7e5df"/>
+  <path d="M92 430c105-31 215-43 341-23 62 10 119 8 154-7" fill="none" stroke="#165c50" stroke-linecap="round" stroke-width="12"/>
+  <path d="M482 43v49l-24 34h48l-24-34" fill="#bd5b58"/>
+  <path d="M469 43h26v48h-26z" fill="#e9b64d"/>
+  <circle cx="482" cy="157" r="38" fill="#e9b64d" stroke="#165c50" stroke-width="8"/>
+  <path d="m482 132 8 17 19 3-14 14 3 19-16-9-17 9 4-19-14-14 19-3z" fill="#fff5c9"/>
+  <path d="M254 155c-20 1-37 18-38 39-2 24 16 43 40 44 24 0 43-18 43-41 0-23-18-42-45-42Z" fill="#bd6f55" stroke="#165c50" stroke-width="8"/>
+  <path d="M228 183c9-24 36-32 58-15" fill="none" stroke="#165c50" stroke-linecap="round" stroke-width="15"/>
+  <path d="M255 238c35 3 61 19 79 48l-43 70-89-5 5-78c1-21 17-38 48-35Z" fill="#278b70" stroke="#165c50" stroke-linejoin="round" stroke-width="9"/>
+  <path d="M224 257 145 315l-32-3" fill="none" stroke="#bd6f55" stroke-linecap="round" stroke-width="24"/>
+  <path d="m315 274 76-61 24 18-64 91" fill="none" stroke="#bd6f55" stroke-linecap="round" stroke-width="24"/>
+  <path d="m318 350 42 73-58 20-40-77" fill="none" stroke="#165c50" stroke-linecap="round" stroke-width="29"/>
+  <path d="m263 365-8 71-71 21" fill="none" stroke="#165c50" stroke-linecap="round" stroke-width="29"/>
+  <path d="m189 457-25 1M300 451l-22 8" stroke="#bd5b58" stroke-linecap="round" stroke-width="12"/>
+  <path d="M215 135c-15-22-9-42 10-53M236 128c-3-31 11-45 33-50M205 160l-27-12" fill="none" stroke="#278b70" stroke-linecap="round" stroke-width="8"/>
+  <path d="m155 184 9-17M135 203l-17-2M166 207l-3 19" stroke="#278b70" stroke-linecap="round" stroke-width="7"/>
+  <path d="M423 218c-12 12-19 27-21 45" fill="none" stroke="#165c50" stroke-dasharray="5 12" stroke-linecap="round" stroke-width="5"/>
+  <text x="470" y="276" fill="#165c50" font-family="Georgia,serif" font-size="24" font-style="italic">keep going</text>
+</svg>

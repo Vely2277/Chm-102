@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#dff4f2" />
+    <title>Chm 102 | Steady Practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top" aria-label="Chm 102 practice home">
+          <span class="brand-mark">02</span>
+          <span><strong>CHM 102</strong><small>steady practice</small></span>
+        </a>
+        <div class="topbar-actions">
+          <label class="user-field" for="user-name">
+            <span class="sr-only">Student name</span>
+            <input id="user-name" type="text" maxlength="24" placeholder="Your name" autocomplete="name" />
+          </label>
+          <button class="text-button" id="home-button" type="button">Home</button>
+          <button class="text-button danger" id="hard-refresh" type="button">Hard refresh</button>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">◐</button>
+        </div>
+      </header>
+
+      <main id="top">
+        <section class="intro-grid">
+          <div class="intro-copy">
+            <p class="eyebrow">A calm place to keep going</p>
+            <h1>One question.<br /><em>Then the next.</em></h1>
+            <p class="intro-text">Build your chemistry confidence one honest attempt at a time. Your progress stays with you.</p>
+          </div>
+        </section>
+
+        <section class="progress-section" id="progress-section">
+          <aside class="progress-card" aria-label="Your practice progress">
+            <div class="progress-card-head">
+              <span class="eyebrow">Your progress</span>
+              <span class="progress-count" id="progress-count">0 / 240</span>
+            </div>
+            <div class="progress-stats"><span><strong id="attempted-total">0</strong><small>attempted</small></span><span><strong id="correct-total">0</strong><small>correct</small></span><span><strong id="wrong-total">0</strong><small>wrong</small></span><span><strong id="pass-percent">0%</strong><small>pass rate</small></span></div>
+            <div class="result-map-head"><span class="eyebrow">Question map</span><span id="dot-range">1–20 of 240</span></div>
+            <div class="result-map"><button class="map-arrow" id="dots-previous" type="button" aria-label="Show previous 20 questions">←</button><div class="result-dots" id="result-dots" aria-label="Question results"></div><button class="map-arrow" id="dots-next" type="button" aria-label="Show next 20 questions">→</button></div>
+            <button class="map-expand" id="expand-dots" type="button">Show all 240</button>
+          </aside>
+        </section>
+
+        <section class="quiz-welcome" id="quiz-welcome" hidden><div><p class="eyebrow">Welcome back</p><h2>Keep going, <span id="welcome-name">student</span>.</h2></div><button class="theme-toggle" id="theme-toggle-quiz" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">◐</button></section>
+
+        <section class="home-screen" id="home-screen" hidden>
+          <div class="home-copy-block"><div class="home-mark">240</div><p class="eyebrow">Your chemistry practice desk</p><h2 id="home-title">Ready to take your place?</h2><p id="home-copy">Start a fresh run through all 240 questions. Your name, order, and progress will stay right here in this browser.</p><div class="home-actions"><button class="nav-button primary" id="start-quiz" type="button">Start quiz →</button><button class="nav-button secondary" id="retry-quiz" type="button" hidden>Retry with a new order</button></div><p class="home-progress" id="home-progress"></p></div>
+          <div class="home-visual"><img src="athlete-medal.svg" alt="A determined athlete working toward a medal" /><span class="visual-caption">Earned one question at a time</span></div>
+        </section>
+
+        <section class="practice-layout" id="practice-layout" aria-live="polite" hidden>
+          <div class="question-column">
+            <div class="question-toolbar">
+              <div><span class="section-label" id="section-label">Loading question bank</span><span class="dot">•</span><span class="question-index" id="question-index">Question 1 of 240</span></div>
+              <button class="icon-button" id="random-question" type="button" title="Jump to a random question" aria-label="Jump to a random question">↗</button>
+            </div>
+            <div class="motivation-card"><div class="motivation-icon">✦</div><div><span class="eyebrow" id="motivation-label">Motivation 001</span><p id="question-motivation">Keep your focus here and let today make you stronger.</p></div></div>
+            <article class="question-card" id="question-card">
+              <div class="question-number" id="question-number">01</div>
+              <div class="question-body">
+                <h2 id="question-text">Loading your first question...</h2>
+                <div class="options" id="options"></div>
+                <div class="answer-status" id="answer-status" hidden></div>
+              </div>
+            </article>
+            <div class="explanation-card" id="explanation-card" hidden>
+              <div class="explanation-icon">i</div>
+              <div><span class="eyebrow">Explanation</span><p id="explanation-text"></p></div>
+            </div>
+            <nav class="question-nav" aria-label="Question navigation">
+              <button class="nav-button secondary" id="previous-button" type="button">← <span>Previous</span></button>
+              <button class="nav-button primary" id="next-button" type="button"><span>Next question</span> →</button>
+            </nav>
+          </div>
+
+          <aside class="side-note">
+            <div class="quote-mark">“</div>
+            <p id="motivation">You do not need to know everything today. You only need to stay with this question.</p>
+            <span class="quote-line"></span>
+            <span class="side-note-caption">Keep showing up</span>
+          </aside>
+        </section>
+      </main>
+      <footer><span>CHM 102 practice desk</span><span id="loaded-status">Preparing your question bank...</span></footer>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
