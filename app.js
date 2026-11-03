@@ -61,12 +61,12 @@ function parseQuestionBlock(block, section) {
 
 function parseSolutions(text, section) {
   return splitNumberedBlocks(text).reduce((map, block) => {
-    const answerMatch = block.text.match(/^\s*([A-E])(?:\)|\.)/);
+    const answerMatch = block.text.match(/^\s*([A-E])(?:\)|\.|\s+\()/);
     if (!answerMatch) return map;
     const explanationMatch = block.text.match(/\bExplanation\s*:\s*/i);
-    const answerText = explanationMatch ? block.text.slice(0, explanationMatch.index) : block.text;
-    const explanation = explanationMatch ? clean(block.text.slice(explanationMatch.index + explanationMatch[0].length)) : "";
-    map[`${section}-${block.number}`] = { answer: answerMatch[1], answerText: clean(answerText.replace(/^\s*[A-E](?:\)|\.)\s*/, "")), explanation };
+    const answerText = explanationMatch ? block.text.slice(0, explanationMatch.index) : block.text.slice(0, block.text.indexOf("\n") >= 0 ? block.text.indexOf("\n") : block.text.length);
+    const explanation = explanationMatch ? clean(block.text.slice(explanationMatch.index + explanationMatch[0].length)) : clean(block.text.slice(block.text.indexOf("\n") + 1));
+    map[`${section}-${block.number}`] = { answer: answerMatch[1], answerText: clean(answerText.replace(/^\s*[A-E](?:\)|\.|\s+\()\s*/, "")), explanation };
     return map;
   }, {});
 }
@@ -82,10 +82,14 @@ function parseData(text) {
   const mainSolutions = text.slice(solutionStart + solutionHeading[0].length, testSolutionStart);
   const guideSolutions = text.slice(testSolutionStart + "TEST REVISION SOLUTIONS".length);
   const solutions = { ...parseSolutions(mainSolutions, "exam"), ...parseSolutions(guideSolutions, "guide") };
-  return [
+  const questions = [
     ...splitNumberedBlocks(mainQuestions).map((block) => parseQuestionBlock(block, "exam")),
     ...splitNumberedBlocks(guideQuestions).map((block) => parseQuestionBlock(block, "guide"))
   ].filter(Boolean).map((question) => ({ ...question, ...solutions[question.id] }));
+  const missingAnswers = questions.filter((question) => !question.answer).map((question) => question.id);
+  const missingExplanations = questions.filter((question) => !question.explanation).map((question) => question.id);
+  if (questions.length !== TOTAL_QUESTIONS || missingAnswers.length || missingExplanations.length) throw new Error(`Question bank integrity check failed: ${missingAnswers.join(", ") || missingExplanations.join(", ") || questions.length}`);
+  return questions;
 }
 
 function storageId(user = state.user) { return user.trim().toLowerCase() || "guest"; }
