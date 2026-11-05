@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#dff4f2" />
-    <title>Chm 102 | Steady Practice</title>
+    <title>Course Hub | Steady Practice</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
@@ -13,31 +13,36 @@
   <body>
     <div class="page-shell">
       <header class="topbar">
-        <a class="brand" href="#top" aria-label="Chm 102 practice home">
-          <span class="brand-mark">02</span>
-          <span><strong>CHM 102</strong><small>steady practice</small></span>
+          <a class="brand" href="#top" aria-label="Course hub">
+          <span class="brand-mark" id="brand-mark">02</span>
+          <span><strong id="brand-name">COURSE HUB</strong><small id="brand-subtitle">steady practice</small></span>
         </a>
         <div class="topbar-actions">
           <label class="user-field" for="user-name">
             <span class="sr-only">Student name</span>
             <input id="user-name" type="text" maxlength="24" placeholder="Your name" autocomplete="name" />
           </label>
-          <button class="text-button" id="home-button" type="button">Home</button>
+          <button class="text-button" id="home-button" type="button">Course hub</button>
           <button class="text-button danger" id="hard-refresh" type="button">Hard refresh</button>
           <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">◐</button>
         </div>
       </header>
 
       <main id="top">
-        <section class="intro-grid">
+        <section class="course-hub" id="course-hub">
+          <div class="hub-heading"><p class="eyebrow">Choose your course</p><h1>One question.<br /><em>Then the next.</em></h1><p class="intro-text">Keep both study paths in one calm practice desk. Your progress stays separate for every course.</p></div>
+          <div class="course-grid" id="course-grid"></div>
+        </section>
+
+        <section class="intro-grid" hidden>
           <div class="intro-copy">
             <p class="eyebrow">A calm place to keep going</p>
             <h1>One question.<br /><em>Then the next.</em></h1>
-            <p class="intro-text">Build your chemistry confidence one honest attempt at a time. Your progress stays with you.</p>
+            <p class="intro-text" id="intro-text">Build your confidence one honest attempt at a time. Your progress stays with you.</p>
           </div>
         </section>
 
-        <section class="progress-section" id="progress-section">
+        <section class="progress-section" id="progress-section" hidden>
           <aside class="progress-card" aria-label="Your practice progress">
             <div class="progress-card-head">
               <span class="eyebrow">Your progress</span>
@@ -53,7 +58,7 @@
         <section class="quiz-welcome" id="quiz-welcome" hidden><div><p class="eyebrow">Welcome back</p><h2>Keep going, <span id="welcome-name">student</span>.</h2></div><button class="theme-toggle" id="theme-toggle-quiz" type="button" aria-label="Switch to dark mode" title="Switch to dark mode">◐</button></section>
 
         <section class="home-screen" id="home-screen" hidden>
-          <div class="home-copy-block"><div class="home-mark">240</div><p class="eyebrow">Your chemistry practice desk</p><h2 id="home-title">Ready to take your place?</h2><p id="home-copy">Start a fresh run through all 240 questions. Your name, order, and progress will stay right here in this browser.</p><div class="home-actions"><button class="nav-button primary" id="start-quiz" type="button">Start quiz →</button><button class="nav-button secondary" id="retry-quiz" type="button" hidden>Retry with a new order</button></div><p class="home-progress" id="home-progress"></p></div>
+          <div class="home-copy-block"><div class="home-mark" id="home-mark">240</div><p class="eyebrow" id="home-eyebrow">Your chemistry practice desk</p><h2 id="home-title">Ready to take your place?</h2><p id="home-copy">Start a fresh run through all 240 questions. Your name, order, and progress will stay right here in this browser.</p><div class="home-actions"><button class="nav-button primary" id="start-quiz" type="button">Start quiz →</button><button class="nav-button secondary" id="retry-quiz" type="button" hidden>Retry with a new order</button></div><p class="home-progress" id="home-progress"></p></div>
           <div class="home-visual"><img src="athlete-medal.svg" alt="A determined athlete working toward a medal" /><span class="visual-caption">Earned one question at a time</span></div>
         </section>
 
@@ -90,8 +95,8 @@
           </aside>
         </section>
       </main>
-      <footer><span>CHM 102 practice desk</span><span id="loaded-status">Preparing your question bank...</span></footer>
+      <footer><span id="footer-brand">Course hub</span><span id="loaded-status">Preparing your question bank...</span></footer>
     </div>
-    <script src="app.js"></script>
+    <script src="app.js?v=2"></script>
   </body>
 </html>

@@ -1,7 +1,9 @@
-const DATA_FILE = "full data.txt";
+const COURSES = {
+  chm102: { id: "chm102", code: "CHM 102", name: "Chemistry", mark: "02", total: 240, dataFile: "full data.txt", eyebrow: "Your chemistry practice desk", description: "Build chemistry confidence one honest attempt at a time." },
+  phy104: { id: "phy104", code: "PHY 104", name: "Physics", mark: "04", total: 200, dataFile: "physics 104 full data.txt", answersFile: "physics 104 answers and explanations.txt", dataVersion: 2, eyebrow: "Your physics practice desk", description: "Work through waves, optics, and motion with steady focus." }
+};
 const STORAGE_KEY = "chm102-practice-v2";
 const THEME_KEY = "chm102-theme";
-const TOTAL_QUESTIONS = 240;
 const motivationLeads = [
   "Keep your focus here", "Stay with the work", "Your crown is still yours", "One brave attempt matters",
   "The next step belongs to you", "Work a little harder", "You are built for this", "Do not give up now",
@@ -18,14 +20,14 @@ const motivationEnds = [
 ];
 
 const allMotivations = motivationLeads.flatMap((lead) => motivationEnds.map((ending) => `${lead} ${ending}`));
-const state = { questions: [], order: [], current: 0, user: "", progress: {}, motivationOrder: [], started: false, dotPage: 0, dotsExpanded: false };
+const state = { course: null, questions: [], order: [], current: 0, user: "", progress: {}, motivationOrder: [], started: false, dotPage: 0, dotsExpanded: false };
 const elements = {
   userName: document.querySelector("#user-name"),
   themeToggle: document.querySelector("#theme-toggle"), themeToggleQuiz: document.querySelector("#theme-toggle-quiz"),
   homeButton: document.querySelector("#home-button"), hardRefresh: document.querySelector("#hard-refresh"),
-  homeScreen: document.querySelector("#home-screen"), practiceLayout: document.querySelector("#practice-layout"),
+  homeScreen: document.querySelector("#home-screen"), courseHub: document.querySelector("#course-hub"), courseGrid: document.querySelector("#course-grid"), practiceLayout: document.querySelector("#practice-layout"),
   introGrid: document.querySelector(".intro-grid"), progressSection: document.querySelector("#progress-section"), quizWelcome: document.querySelector("#quiz-welcome"), welcomeName: document.querySelector("#welcome-name"),
-  homeTitle: document.querySelector("#home-title"), homeCopy: document.querySelector("#home-copy"),
+  homeTitle: document.querySelector("#home-title"), homeCopy: document.querySelector("#home-copy"), homeMark: document.querySelector("#home-mark"), homeEyebrow: document.querySelector("#home-eyebrow"), introText: document.querySelector("#intro-text"),
   homeProgress: document.querySelector("#home-progress"), startQuiz: document.querySelector("#start-quiz"), retryQuiz: document.querySelector("#retry-quiz"),
   section: document.querySelector("#section-label"), index: document.querySelector("#question-index"),
   number: document.querySelector("#question-number"), text: document.querySelector("#question-text"),
@@ -37,7 +39,7 @@ const elements = {
   attemptedTotal: document.querySelector("#attempted-total"), correctTotal: document.querySelector("#correct-total"), wrongTotal: document.querySelector("#wrong-total"), passPercent: document.querySelector("#pass-percent"),
   questionMotivation: document.querySelector("#question-motivation"), motivationLabel: document.querySelector("#motivation-label"),
   resultDots: document.querySelector("#result-dots"), motivation: document.querySelector("#motivation"), motivationCaption: document.querySelector(".side-note-caption"),
-  loaded: document.querySelector("#loaded-status"), card: document.querySelector("#question-card")
+  loaded: document.querySelector("#loaded-status"), card: document.querySelector("#question-card"), brandMark: document.querySelector("#brand-mark"), brandName: document.querySelector("#brand-name"), brandSubtitle: document.querySelector("#brand-subtitle"), footerBrand: document.querySelector("#footer-brand")
 };
 
 function clean(value) {
@@ -46,6 +48,11 @@ function clean(value) {
 
 function splitNumberedBlocks(text) {
   const starts = [...text.matchAll(/(?:^|\n)\s*(\d{1,3})\.\s+/g)];
+  return starts.map((match, index) => ({ number: Number(match[1]), text: text.slice(match.index + match[0].length, starts[index + 1]?.index ?? text.length) }));
+}
+
+function splitPhysicsQuestionBlocks(text) {
+  const starts = [...text.matchAll(/(?:^|\n)\s*(\d{1,3})\.\s+(?=[A-Z])/g)];
   return starts.map((match, index) => ({ number: Number(match[1]), text: text.slice(match.index + match[0].length, starts[index + 1]?.index ?? text.length) }));
 }
 
@@ -88,7 +95,32 @@ function parseData(text) {
   ].filter(Boolean).map((question) => ({ ...question, ...solutions[question.id] }));
   const missingAnswers = questions.filter((question) => !question.answer).map((question) => question.id);
   const missingExplanations = questions.filter((question) => !question.explanation).map((question) => question.id);
-  if (questions.length !== TOTAL_QUESTIONS || missingAnswers.length || missingExplanations.length) throw new Error(`Question bank integrity check failed: ${missingAnswers.join(", ") || missingExplanations.join(", ") || questions.length}`);
+  if (questions.length !== COURSES.chm102.total || missingAnswers.length || missingExplanations.length) throw new Error(`Question bank integrity check failed: ${missingAnswers.join(", ") || missingExplanations.join(", ") || questions.length}`);
+  return questions;
+}
+
+function parsePhysicsData(questionText, answerText) {
+  const examHeading = questionText.match(/EXAMINATION\s+REVISION\s+GUIDE/i);
+  if (!examHeading) throw new Error("Physics question headings are incomplete");
+  const testQuestions = questionText.slice(0, examHeading.index);
+  const examQuestions = questionText.slice(examHeading.index + examHeading[0].length);
+  const questionBlocks = [...splitPhysicsQuestionBlocks(testQuestions), ...splitPhysicsQuestionBlocks(examQuestions)];
+  const answerSource = `${answerText.trimEnd()}\n201. [END-00]\n`;
+  const answerMatches = [...answerSource.matchAll(/^\s*(\d+)\.\s+\[(TEST|EXAM)-(\d+)\]\s*([\s\S]*?)(?=^\s*\d+\.\s+\[(?:TEST|EXAM|END)-\d+\])/gim)];
+  const answerBlocks = answerMatches.map((match) => ({ number: Number(match[1]), section: match[2], sourceNumber: Number(match[3]), text: match[4] }));
+  if (questionBlocks.length !== COURSES.phy104.total || answerBlocks.length !== COURSES.phy104.total) throw new Error(`Physics question bank integrity check failed: ${questionBlocks.length}/${answerBlocks.length}`);
+  const questions = questionBlocks.map((block, index) => {
+    const section = index < 120 ? "Test revision guide" : "Examination revision guide";
+    const question = parseQuestionBlock(block, section);
+    const answerBlock = answerBlocks[index].text;
+    const answerMatch = answerBlock.match(/(?:^|\n)\s*Answer\s*:\s*([A-E])\s*(?:\n|$)/i);
+    const answerTextMatch = answerBlock.match(/(?:^|\n)\s*Answer text\s*:\s*([\s\S]*?)(?=\n\s*Explanation(?:\s*&\s*Problem-Solving Strategy)?\s*:|$)/i);
+    const explanationMatch = answerBlock.match(/Explanation(?:\s*&\s*Problem-Solving Strategy)?\s*:\s*([\s\S]*)/i);
+    return { ...question, id: `physics-${index + 1}`, answer: answerMatch?.[1] || null, answerText: clean(answerTextMatch?.[1] || ""), explanation: clean(explanationMatch?.[1] || "") };
+  }).map((question) => ({ ...question, answer: question.answer || null, explanation: question.explanation || "" }));
+  const missingAnswers = questions.filter((question) => !question.answer).map((question) => question.id);
+  const missingExplanations = questions.filter((question) => !question.explanation).map((question) => question.id);
+  if (missingAnswers.length || missingExplanations.length) throw new Error(`Physics answer bank integrity check failed: ${missingAnswers.join(", ") || missingExplanations.join(", ")}`);
   return questions;
 }
 
@@ -96,11 +128,15 @@ function storageId(user = state.user) { return user.trim().toLowerCase() || "gue
 function readStorage() { return JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}"); }
 function saveUserData(user = state.user) {
   const saved = readStorage();
-  saved[storageId(user)] = { order: state.order, current: state.current, progress: state.progress, motivationOrder: state.motivationOrder, started: state.started };
+  const userData = saved[storageId(user)] || {};
+  userData[state.course.id] = { version: state.course.dataVersion || 1, order: state.order, current: state.current, progress: state.progress, motivationOrder: state.motivationOrder, started: state.started };
+  saved[storageId(user)] = userData;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
 }
 function loadUserData() {
-  const saved = readStorage()[storageId()];
+  const userData = readStorage()[storageId()] || {};
+  const rawSaved = userData[state.course.id] || (state.course.id === "chm102" && userData.order ? userData : null);
+  const saved = state.course.id === "phy104" && rawSaved?.version !== state.course.dataVersion ? null : rawSaved;
   state.order = saved?.order?.length === state.questions.length ? saved.order : shuffle([...Array(state.questions.length).keys()]);
   state.current = saved?.current ?? 0;
   state.progress = saved?.progress || {};
@@ -156,6 +192,7 @@ function renderResultDots() {
     const dot = document.createElement("button");
     dot.type = "button";
     dot.className = `result-dot ${result ? (result.correct ? "correct" : "wrong") : ""} ${position === state.current ? "current" : ""}`;
+    dot.style.setProperty("--dot-index", visiblePosition);
     dot.textContent = String(position + 1);
     dot.title = result ? `Question ${position + 1}: ${result.correct ? "correct" : "retry"}` : `Question ${position + 1}: unanswered`;
     dot.setAttribute("aria-label", dot.title);
@@ -163,7 +200,7 @@ function renderResultDots() {
     elements.resultDots.append(dot);
   });
   elements.resultMap.classList.toggle("is-expanded", state.dotsExpanded);
-  elements.expandDots.textContent = state.dotsExpanded ? "Show current 20" : "Show all 240";
+  elements.expandDots.textContent = state.dotsExpanded ? "Show current 20" : `Show all ${state.questions.length}`;
   elements.dotRange.textContent = state.dotsExpanded ? `1–${state.order.length} of ${state.order.length}` : `${start + 1}–${end} of ${state.order.length}`;
   elements.dotsPrevious.disabled = state.dotsExpanded || state.dotPage === 0;
   elements.dotsNext.disabled = state.dotsExpanded || end >= state.order.length;
@@ -173,7 +210,7 @@ function renderQuestion() {
   const question = currentQuestion();
   if (!question) return;
   const saved = state.progress[question.id];
-  elements.section.textContent = question.section === "exam" ? "Examination revision" : "Test revision guide";
+  elements.section.textContent = state.course.id === "chm102" ? (question.section === "exam" ? "Examination revision" : "Test revision guide") : question.section;
   elements.index.textContent = `Run question ${state.current + 1} of ${state.questions.length}`;
   elements.number.textContent = String(question.number).padStart(2, "0");
   elements.text.textContent = question.question;
@@ -199,8 +236,8 @@ function renderQuestion() {
   elements.questionMotivation.textContent = allMotivations[motivationId];
   elements.motivationLabel.textContent = `Motivation ${String(motivationId + 1).padStart(3, "0")}`;
   if (!state.dotsExpanded) state.dotPage = Math.floor(state.current / 20);
-  elements.card.style.animation = "none";
-  requestAnimationFrame(() => { elements.card.style.animation = ""; });
+  elements.card.classList.remove("question-refresh");
+  requestAnimationFrame(() => { elements.card.classList.add("question-refresh"); });
   updateProgress();
 }
 
@@ -246,21 +283,25 @@ function renderHome() {
   const attempts = Object.keys(state.progress).length;
   const complete = attempts === state.questions.length;
   elements.homeScreen.hidden = false;
+  elements.courseHub.hidden = true;
   elements.practiceLayout.hidden = true;
   elements.introGrid.hidden = false;
   elements.progressSection.hidden = false;
   elements.quizWelcome.hidden = true;
   document.body.classList.remove("quiz-mode");
+  elements.homeMark.textContent = state.course.mark;
+  elements.homeEyebrow.textContent = state.course.eyebrow;
+  elements.introText.textContent = state.course.description;
   if (!state.started) {
     elements.homeTitle.textContent = "Ready to take your place?";
-    elements.homeCopy.textContent = "Start a fresh run through all 240 questions. Your name, order, and progress will stay right here in this browser.";
+    elements.homeCopy.textContent = `Start a fresh run through all ${state.questions.length} questions. Your name, order, and progress will stay right here in this browser.`;
     elements.startQuiz.hidden = false;
     elements.startQuiz.textContent = "Start quiz →";
     elements.retryQuiz.hidden = true;
     elements.homeProgress.textContent = "No run started yet.";
   } else if (complete) {
     elements.homeTitle.textContent = "You finished the run.";
-    elements.homeCopy.textContent = "That is 240 decisions made. Take a breath, look at your result map, and come back stronger for another run.";
+    elements.homeCopy.textContent = `That is ${state.questions.length} decisions made. Take a breath, look at your result map, and come back stronger for another run.`;
     elements.startQuiz.hidden = true;
     elements.retryQuiz.hidden = false;
     elements.homeProgress.textContent = `${attempts} / ${state.questions.length} attempted · ${Object.values(state.progress).filter((item) => item.correct).length} correct`;
@@ -277,6 +318,7 @@ function renderHome() {
 
 function showQuiz() {
   elements.homeScreen.hidden = true;
+  elements.courseHub.hidden = true;
   elements.introGrid.hidden = true;
   elements.progressSection.hidden = false;
   elements.quizWelcome.hidden = false;
@@ -284,6 +326,59 @@ function showQuiz() {
   elements.welcomeName.textContent = state.user.trim() || "student";
   document.body.classList.add("quiz-mode");
   renderQuestion();
+}
+
+function updateCourseBrand() {
+  const course = state.course;
+  elements.brandMark.textContent = course?.mark || "02";
+  elements.brandName.textContent = course ? course.code : "COURSE HUB";
+  elements.brandSubtitle.textContent = course ? `${course.name} · steady practice` : "steady practice";
+  elements.footerBrand.textContent = course ? `${course.code} practice desk` : "Course hub";
+  document.title = course ? `${course.code} ${course.name} | Steady Practice` : "Course Hub | Steady Practice";
+}
+
+function renderCourseHub() {
+  state.course = null;
+  elements.courseHub.hidden = false;
+  elements.homeScreen.hidden = true;
+  elements.practiceLayout.hidden = true;
+  elements.introGrid.hidden = true;
+  elements.progressSection.hidden = true;
+  elements.quizWelcome.hidden = true;
+  document.body.classList.remove("quiz-mode");
+  elements.courseGrid.replaceChildren();
+  Object.values(COURSES).forEach((course) => {
+    const card = document.createElement("button");
+    card.type = "button";
+    card.className = `course-card course-${course.id}`;
+    card.innerHTML = `<span class="course-card-mark">${course.mark}</span><span class="course-card-code">${course.code}</span><strong>${course.name}</strong><span>${course.total} questions</span><small>${course.description}</small><b>Open course <span aria-hidden="true">→</span></b>`;
+    card.addEventListener("click", () => selectCourse(course.id));
+    elements.courseGrid.append(card);
+  });
+  updateCourseBrand();
+  elements.loaded.textContent = "Choose a course to load its question bank";
+}
+
+async function selectCourse(courseId) {
+  const course = COURSES[courseId];
+  try {
+    document.body.classList.add("is-loading");
+    elements.loaded.textContent = `Loading ${course.code}...`;
+    const responses = await Promise.all([fetch(course.dataFile), course.answersFile ? fetch(course.answersFile) : null].filter(Boolean));
+    if (responses.some((response) => !response.ok)) throw new Error("Question file unavailable");
+    const texts = await Promise.all(responses.map((response) => response.text()));
+    state.course = course;
+    state.questions = course.id === "phy104" ? parsePhysicsData(texts[0], texts[1]) : parseData(texts[0]);
+    updateCourseBrand();
+    loadUserData();
+    elements.userName.value = state.user;
+    elements.loaded.textContent = `${state.questions.length} questions loaded from ${course.dataFile}`;
+    renderHome();
+  } catch (error) {
+    elements.loaded.textContent = `Could not load ${course.dataFile}`;
+  } finally {
+    document.body.classList.remove("is-loading");
+  }
 }
 
 function hardRefresh() {
@@ -297,31 +392,25 @@ function hardRefresh() {
   state.dotPage = 0;
   state.dotsExpanded = false;
   elements.userName.value = "";
-  loadUserData();
-  renderHome();
+  if (state.course) {
+    loadUserData();
+    renderHome();
+  } else renderCourseHub();
 }
 
 async function init() {
   try {
     applyTheme(localStorage.getItem(THEME_KEY) || "light");
-    const response = await fetch(DATA_FILE);
-    if (!response.ok) throw new Error("Question file unavailable");
-    const text = await response.text();
-    state.questions = parseData(text);
-    applyTheme(localStorage.getItem(THEME_KEY) || "light");
     state.user = localStorage.getItem("chm102-user") || "";
     elements.userName.value = state.user;
-    loadUserData();
-    elements.loaded.textContent = `${state.questions.length} questions loaded from your guide`;
-    updateProgress();
-    renderHome();
+    renderCourseHub();
   } catch (error) {
-    elements.loaded.textContent = "Could not load full data.txt";
+    elements.loaded.textContent = "Could not load the course hub";
     elements.text.textContent = "Open this page through a local web server so the question bank can load.";
   }
 }
 
-elements.userName.addEventListener("change", () => { saveUserData(state.user); state.user = elements.userName.value; localStorage.setItem("chm102-user", state.user); loadUserData(); renderHome(); });
+elements.userName.addEventListener("change", () => { if (state.course) saveUserData(state.user); state.user = elements.userName.value; localStorage.setItem("chm102-user", state.user); if (state.course) { loadUserData(); renderHome(); } });
 elements.themeToggle.addEventListener("click", toggleTheme);
 elements.themeToggleQuiz.addEventListener("click", toggleTheme);
 elements.previous.addEventListener("click", () => moveBy(-1));
@@ -330,7 +419,7 @@ document.querySelector("#random-question").addEventListener("click", () => { sta
 elements.dotsPrevious.addEventListener("click", () => { state.dotPage = Math.max(0, state.dotPage - 1); renderResultDots(); });
 elements.dotsNext.addEventListener("click", () => { state.dotPage = Math.min(Math.ceil(state.order.length / 20) - 1, state.dotPage + 1); renderResultDots(); });
 elements.expandDots.addEventListener("click", () => { state.dotsExpanded = !state.dotsExpanded; renderResultDots(); });
-elements.homeButton.addEventListener("click", renderHome);
+elements.homeButton.addEventListener("click", renderCourseHub);
 elements.hardRefresh.addEventListener("click", hardRefresh);
 elements.startQuiz.addEventListener("click", () => state.started && Object.keys(state.progress).length < state.questions.length ? showQuiz() : startNewRun());
 elements.retryQuiz.addEventListener("click", startNewRun);

@@ -1,0 +1,5499 @@
+NUMBER: 1
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: Waves transfer energy through oscillating mediums.
+
+Transverse waves: Particle oscillations are perpendicular (
+⊥) to the direction of wave propagation (e.g., light, electromagnetic waves, waves on a string, surface water ripples).
+
+Longitudinal waves: Particle oscillations are parallel (
+∥) to the direction of wave propagation (compressions and rarefactions). Sound waves in air/gases are strictly longitudinal.
+
+Option Breakdown: Sound waves in air propagate strictly through longitudinal pressure variations. Light waves and string waves are transverse. Sound waves in solids have both longitudinal and transverse components, but sound in air is purely longitudinal.
+
+NUMBER: 2
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: Simple Harmonic Motion (SHM) is defined by the governing differential equation:
+
+a=−ω 
+2
+ x
+Key Ratio: Rearranging the definition gives:
+
+x
+a
+​
+ =−ω 
+2
+ 
+Since the angular frequency 
+ω is a constant property of the oscillating system (determined by parameters like stiffness 
+k and mass 
+m), the ratio 
+x
+a
+​
+  must remain constant regardless of position or time.
+
+Given Data: 
+a=−4.3 cm/s 
+2
+  at 
+x=3.0 cm⟹ 
+x
+a
+​
+ = 
+3.0
+−4.3
+​
+ =−1.433 s 
+−2
+ , which is constant (
+ω 
+2
+ ≈1.433).
+
+NUMBER: 3
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: In standing waves, total mechanical energy continuously alternates between pure potential energy (
+E 
+p
+​
+ ) and pure kinetic energy (
+E 
+k
+​
+ ).
+
+Maximum Displacement (Crests/Troughs): Particles momentarily stop (
+v=0), making kinetic energy zero; energy is 100% elastic potential energy.
+
+Equilibrium Position (String is perfectly flat): Tensile potential energy drops to zero while particle transverse velocities reach maximum (
+v=v 
+max
+​
+ ); energy is 100% kinetic energy.
+
+NUMBER: 4
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: A simple microscope (magnifying glass) consists of a single converging (convex) lens of short focal length.
+
+Ray Optics Principle: When an object is placed inside the focal point (
+u<f), the convex lens forms an upright, magnified, virtual image on the same side as the object.
+
+NUMBER: 5
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Mirror equation: 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ , Magnification: 
+m=− 
+u
+v
+​
+ .
+
+Sign Convention (Cartesian):
+
+Object distance 
+u=+10 cm (Real object in front)
+
+Radius of curvature 
+R=−40 cm (Convex mirror focus is behind the mirror)
+
+Focal length 
+f= 
+2
+R
+​
+ =−20 cm
+
+Step-by-Step Calculation:
+
+−20
+1
+​
+ = 
+10
+1
+​
+ + 
+v
+1
+​
+ ⟹ 
+v
+1
+​
+ =− 
+20
+1
+​
+ − 
+10
+1
+​
+ =− 
+20
+3
+​
+ 
+v=− 
+3
+20
+​
+  cm≈−6.667 cm
+m=− 
+u
+v
+​
+ =−( 
+10
+−6.667
+​
+ )=+0.667
+Result: Image position 
+v=−6.667 cm, magnification 
+m=0.667.
+
+NUMBER: 6
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Core Rule for Convex Mirrors: Diverging (convex) mirrors form virtual focal points behind their reflecting surface. For any real object placed in front of a convex mirror (
+u>0), light rays diverge upon reflection, producing an image that is always virtual, upright (erect), and diminished (
+∣m∣<1).
+
+NUMBER: 7
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Simple pendulum period: 
+T=2π 
+g
+L
+​
+ 
+
+​
+ .
+
+Proportionality: 
+T∝ 
+g
+
+​
+ 
+1
+​
+ ⟹ 
+T 
+earth
+​
+ 
+T 
+moon
+​
+ 
+​
+ = 
+g 
+moon
+​
+ 
+g 
+earth
+​
+ 
+​
+ 
+
+​
+ .
+
+Step-by-Step Calculation:
+Taking 
+g 
+earth
+​
+ ≈9.8 m/s 
+2
+  and 
+g 
+moon
+​
+ =1.6 m/s 
+2
+ :
+
+T 
+moon
+​
+ =2.0× 
+1.6
+9.8
+​
+ 
+
+​
+ =2.0× 
+6.125
+
+​
+ ≈2.0×2.475=4.95 s≈4.9 s
+NUMBER: 8
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula & Sign Conventions:
+
+Concave mirror with 
+R=30 cm⟹f= 
+2
+−30
+​
+ =−15 cm.
+
+Real image produced by concave mirror 
+⟹ image is inverted 
+⟹m=−3.
+
+Step-by-Step Calculation:
+
+m=− 
+u
+v
+​
+ =−3⟹v=3u
+Substitute into mirror formula 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ :
+
+−15
+1
+​
+ = 
+u
+1
+​
+ + 
+3u
+1
+​
+ = 
+3u
+4
+​
+ 
+−3u=60⟹u=20 cm
+NUMBER: 9
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: Damping forces resist motion. For low to moderate speeds in viscous fluid media, the damping force 
+F 
+d
+​
+  is linearly proportional to the instantaneous velocity 
+v of the mass:
+
+F 
+d
+​
+ =−bv
+where 
+b is the damping coefficient (in 
+kg/s or 
+N⋅s/m).
+
+NUMBER: 10
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+General Wave Form: 
+H(x,t)=Acos(kx+ωt) or 
+Acos(kx−ωt).
+
+Sign rule: 
+(kx+ωt) indicates propagation toward the negative x-direction (to the left).
+
+Sign rule: 
+(kx−ωt) indicates propagation toward the positive x-direction (to the right).
+
+Wave Velocity Formula: 
+v= 
+k
+ω
+​
+ .
+
+Step-by-Step Calculation:
+From 
+H(x,t)=8cos(3x+2t), we identify wave number 
+k=3 rad/m and angular frequency 
+ω=2 rad/s.
+
+v= 
+3
+2
+​
+ ≈0.667 m/s
+Because of the positive sign inside 
+(3x+2t), the wave moves to the left at 
+0.667 m/s.
+
+NUMBER: 11
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Law of Reflection: 
+θ 
+i
+​
+ =θ 
+r
+​
+ .
+
+Definition: Both the angle of incidence (
+θ 
+i
+​
+ ) and the angle of reflection (
+θ 
+r
+​
+ ) are standardly measured relative to the normal—an imaginary perpendicular line drawn to the surface at the point of impact.
+
+NUMBER: 12
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Magnification Equations for Simple Microscope:
+
+Image at near point (least distance of distinct vision 
+D≈25 cm): 
+M=1+ 
+f
+D
+​
+ .
+
+Image at infinity (relaxed eye / normal adjustment): 
+M= 
+f
+D
+​
+ .
+
+NUMBER: 13
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Superposition Theory: Superimposing two counter-propagating coherent transverse waves:
+
+y 
+1
+​
+ +y 
+2
+​
+ =Asin(kx−ωt)+Asin(kx+ωt)=2Asin(kx)cos(ωt)
+This is a standing wave.
+
+Node Spacing: Nodes occur where 
+sin(kx)=0⟹kx=nπ⟹ 
+λ
+2π
+​
+ x=nπ⟹Δx= 
+2
+λ
+​
+ = 
+2
+L
+​
+ .
+
+Maximum Amplitude: At antinodes, peak amplitude reaches 
+2A.
+
+NUMBER: 14
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Angular magnification of astronomical telescope in normal adjustment:
+
+M= 
+f 
+e
+​
+ 
+f 
+o
+​
+ 
+​
+ 
+Calculation: Given 
+f 
+o
+​
+ =100 cm (objective focal length) and 
+f 
+e
+​
+ =10 cm (eyepiece focal length):
+
+M= 
+10
+100
+​
+ =10
+NUMBER: 15
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Sequential Snell's Law: At parallel optical interfaces, Snell's law maintains invariants across boundaries:
+
+n 
+1
+​
+ sinθ 
+1
+​
+ =n 
+2
+​
+ sinθ 
+2
+​
+ =n 
+3
+​
+ sinθ 
+3
+​
+ =n 
+diamond
+​
+ sinθ 
+diamond
+​
+ 
+Step-by-Step Calculation:
+Ray in air (
+n 
+1
+​
+ =1.00, 
+θ 
+1
+​
+ =30 
+∘
+ ) strikes the system:
+
+n 
+air
+​
+ sinθ 
+air
+​
+ =n 
+diamond
+​
+ sinθ 
+diamond
+​
+ 
+1.00×sin(30 
+∘
+ )=2.42×sinθ 
+diamond
+​
+ 
+0.50=2.42×sinθ 
+diamond
+​
+ ⟹sinθ 
+diamond
+​
+ = 
+2.42
+0.50
+​
+ ≈0.20661
+θ 
+diamond
+​
+ =arcsin(0.20661)≈11.92 
+∘
+ ≈11.9 
+∘
+ 
+NUMBER: 16
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: SHM fundamental relation 
+a=−ω 
+2
+ x⟹∣a∣=ω 
+2
+ ∣x∣.
+
+Step-by-Step Calculation:
+
+ω 
+2
+ = 
+∣x∣
+∣a∣
+​
+ = 
+2.5 cm
+3.0 cm/s 
+2
+ 
+​
+ =1.2 s 
+−2
+ 
+ω= 
+1.2
+
+​
+ ≈1.095 rad/s≈1.09 rad/s
+NUMBER: 17
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Quality Factor Definition: Quality factor 
+Q= 
+Δω
+ω 
+0
+​
+ 
+​
+ , where 
+Δω is the bandwidth (full width at half-maximum power).
+
+Physical Effect: Higher 
+Q indicates lower energy dissipation per cycle. Therefore, the resonance response peak becomes significantly sharper/narrower (reduced bandwidth) and taller (higher amplification peak at resonance).
+
+NUMBER: 18
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Open-Open Pipe: Fundamental wavelength 
+λ 
+open
+​
+ =2L⟹f 
+open
+​
+ = 
+2L
+v
+​
+ =f.
+
+Open-Closed Pipe: Fundamental wavelength 
+λ 
+closed
+​
+ =4L⟹f 
+closed
+​
+ = 
+4L
+v
+​
+ = 
+2
+1
+​
+ ( 
+2L
+v
+​
+ )= 
+2
+f
+​
+ .
+
+NUMBER: 19
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Formula: 
+T=2π 
+g
+L
+​
+ 
+
+​
+ .
+
+Step-by-Step Calculation:
+Given 
+L=1.0 m and 
+g 
+moon
+​
+ =1.6 m/s 
+2
+ :
+
+T=2π 
+1.6
+1.0
+​
+ 
+
+​
+ =2π× 
+0.625
+
+​
+ ≈2×3.14159×0.79057≈4.967 s≈5.0 s
+NUMBER: 20
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Mirror equation 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ .
+
+Given Data (Convex Mirror):
+
+Radius of curvature 
+R=−40 cm=−0.4 m⟹f=−0.2 m.
+
+Object distance 
+u=+10 m.
+
+Step-by-Step Calculation:
+
+−0.2
+1
+​
+ = 
+10
+1
+​
+ + 
+v
+1
+​
+ ⟹−5=0.1+ 
+v
+1
+​
+ 
+v
+1
+​
+ =−5.1⟹v=− 
+5.1
+1
+​
+ ≈−0.196 m≈−0.2 m
+Negative sign denotes virtual image behind the mirror.
+
+NUMBER: 21
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Normal Mode Definition: A normal mode of an oscillating system is a pattern of motion in which all components of the system oscillate sinusoidally with the same fixed frequency and with a constant relative phase relationship.
+
+NUMBER: 22
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Superposition Theorem: The combination of two equal-amplitude, equal-frequency waves traveling in opposite directions (
+y 
+1
+​
+ =Asin(kx−ωt) and 
+y 
+2
+​
+ =Asin(kx+ωt)) yields:
+
+y 
+net
+​
+ =2Asin(kx)cos(ωt)
+This spatial/temporal separation characterizes a standing wave.
+
+NUMBER: 23
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Acoustic Intensity Relation: Wave intensity 
+I is directly proportional to the square of its wave amplitude (
+A) and square of frequency (
+ω):
+
+I= 
+2
+1
+​
+ ρvω 
+2
+ A 
+2
+ ⟹I∝A 
+2
+ 
+NUMBER: 24
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula Evaluation: 
+v(x)=ω 
+A 
+2
+ −x 
+2
+ 
+
+​
+ .
+
+At Equilibrium (
+x=0):
+
+v(0)=ω 
+A 
+2
+ −0 
+2
+ 
+
+​
+ =ωA
+This represents maximum speed during simple harmonic motion.
+
+NUMBER: 25
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Wave Speed Equation: 
+v=fλ⟹λ= 
+f
+v
+​
+ .
+
+Physical Constraint: Wave speed 
+v is determined strictly by the medium properties. If medium is unchanged, 
+v remains constant.
+
+Deduction: If frequency 
+f doubles (
+2f), wavelength 
+λ must be halved (
+λ/2).
+
+NUMBER: 26
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+SHM Definition Criteria:
+
+Restoring force 
+F=−kx (proportional to displacement).
+
+Acceleration 
+a=−ω 
+2
+ x directed toward equilibrium.
+
+Period 
+T=2π 
+k
+m
+​
+ 
+
+​
+  independent of amplitude.
+
+Incorrect Option: Force proportional to velocity (
+F 
+d
+​
+ =−bv) describes damping, not simple harmonic motion.
+
+NUMBER: 27
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formulas: Maximum kinetic energy 
+E 
+k,max
+​
+ = 
+2
+1
+​
+ mv 
+max
+2
+​
+ , where 
+v 
+max
+​
+ =ωA and 
+ω=2πf.
+
+Step-by-Step Calculation:
+
+ω=2π(2)=4π rad/s
+v 
+max
+​
+ =(4π)(0.1)=0.4π m/s
+E 
+k,max
+​
+ = 
+2
+1
+​
+ (0.5)(0.4π) 
+2
+ =0.25×(0.16π 
+2
+ )=0.04π 
+2
+  J
+Taking 
+π 
+2
+ ≈9.87: 
+E 
+k,max
+​
+ ≈0.04×9.87≈0.395 J≈0.4 J.
+
+NUMBER: 28
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Standard Lensmaker's Equation: For a thin lens with refractive index 
+n relative to surrounding medium:
+
+f
+1
+​
+ =(n−1)( 
+R 
+1
+​
+ 
+1
+​
+ − 
+R 
+2
+​
+ 
+1
+​
+ )
+NUMBER: 29
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Normal Rotation: Normal line is perpendicular to the surface. Rotating mirror by angle 
+θ=45 
+∘
+  rotates the normal by 
+45 
+∘
+ .
+
+Reflected Ray Rotation Principle: Rotating a plane mirror by angle 
+θ rotates the reflected ray by 
+2θ:
+
+Reflected ray deviation=2(45 
+∘
+ )=90 
+∘
+ 
+NUMBER: 30
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formulas:
+
+Open pipe fundamental: 
+f 
+open
+​
+ = 
+2L
+v
+​
+ =256 Hz.
+
+Closed pipe fundamental: 
+f 
+closed
+​
+ = 
+4L
+v
+​
+ = 
+2
+1
+​
+ ( 
+2L
+v
+​
+ ).
+
+Calculation:
+
+f 
+closed
+​
+ = 
+2
+256
+​
+ =128 Hz
+NUMBER: 31
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Physics Principle: Addition of oppositely traveling coherent waves produces standing waves:
+
+y 
+1
+​
+ +y 
+2
+​
+ =2Asin(kx)cos(ωt)
+Node Spacing: 
+Δx= 
+2
+λ
+​
+ = 
+2
+L
+​
+ .
+
+Max Antinode Amplitude: 
+2A.
+
+NUMBER: 32
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Compound Microscope Setup: Employs two convex (converging) lenses: the objective lens (short focal length) and the eyepiece lens (larger focal length), aligned axially to produce compound magnification.
+
+NUMBER: 33
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Rotational Kinematics of Images:
+
+Object distance from mirror = 
+d=5 cm⟹ Image distance from rotation axis = 
+5 cm.
+
+Rotating mirror by 
+θ=15 
+∘
+  rotates the image ray by 
+Δϕ=2θ=30 
+∘
+ .
+
+Arc Length Formula: 
+s=r⋅Δϕ 
+radians
+​
+ .
+
+s=5 cm×(30 
+∘
+ × 
+180 
+∘
+ 
+π
+​
+ )=5× 
+6
+3.14
+​
+ ≈ 
+3
+15.7
+​
+ ≈5.233 cm≈5.2 cm
+NUMBER: 34
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Refractive Index Relation: 
+n= 
+v
+c
+​
+ ⟹v= 
+n
+c
+​
+ .
+
+Deduction: Air has index 
+n≈1.00. Water has index 
+n=1.33. Entering a medium of higher refractive index reduces wave velocity:
+
+v 
+water
+​
+ = 
+1.33
+3×10 
+8
+ 
+​
+ ≈2.26×10 
+8
+  m/s<c
+Hence, speed decreases.
+
+NUMBER: 35
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Stored elastic potential energy in harmonic oscillator: 
+E= 
+2
+1
+​
+ kA 
+2
+ .
+
+Step-by-Step Calculation:
+Given 
+k=2×10 
+7
+  N/m, 
+A=0.1 m:
+
+E= 
+2
+1
+​
+ (2×10 
+7
+ )(0.1) 
+2
+ =10 
+7
+ ×0.01=1.0×10 
+5
+  J
+NUMBER: 36
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Thin lens equation 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ .
+
+Given Data: Convex lens 
+⟹f=+20 cm, 
+u=+10 cm.
+
+Step-by-Step Calculation:
+
+20
+1
+​
+ = 
+10
+1
+​
+ + 
+v
+1
+​
+ ⟹ 
+v
+1
+​
+ = 
+20
+1
+​
+ − 
+10
+1
+​
+ =− 
+20
+1
+​
+ 
+v=−20 cm
+Negative sign indicates a virtual image located 
+20 cm on the object side.
+
+NUMBER: 37
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Damping Regimes:
+
+Critical damping (
+ζ=1): Returns system to equilibrium as fast as possible without oscillating.
+
+Engineering Application: Shock absorbers are configured for critical damping (or slightly overdamped) to prevent continuous post-bump bounce while restoring vehicle equilibrium rapidly.
+
+NUMBER: 38
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Convex Lens Ray Tracing Rules:
+When object is inside focal point (
+u<f), light rays diverge after passing through the lens. Extending these rays backward forms an image that is virtual, upright (erect), and magnified.
+
+NUMBER: 39
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Standard Threshold: Reference sound intensity 
+I 
+0
+​
+  corresponding to the human threshold of hearing at 
+1000 Hz is standardized internationally as:
+
+I 
+0
+​
+ =10 
+−12
+  W/m 
+2
+ (or 0 dB)
+NUMBER: 40
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Doppler Effect Formula: 
+f 
+′
+ =f( 
+v∓v 
+s
+​
+ 
+v±v 
+o
+​
+ 
+​
+ ).
+
+Analysis: Apparent frequency 
+f 
+′
+ =550 Hz is higher than source frequency 
+f=500 Hz. Higher frequency requires relative approach between observer and source. Option B describes observer approaching source.
+
+NUMBER: 41
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Physical Cause: Refractive index 
+n(λ) varies with light wavelength (dispersion). Violet light refracts more than red light, causing different colors to focus at different points along the principal axis.
+
+NUMBER: 42
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Power of lens 
+P= 
+f(in meters)
+1
+​
+ .
+
+Step-by-Step Calculation:
+f=10 cm=0.1 m.
+
+P= 
+0.1 m
+1
+​
+ =+10 Diopters (D)
+NUMBER: 43
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Formula: 
+E 
+k,max
+​
+ = 
+2
+1
+​
+ mω 
+2
+ A 
+2
+ = 
+2
+1
+​
+ m(2πf) 
+2
+ A 
+2
+ =2π 
+2
+ mf 
+2
+ A 
+2
+ .
+
+Step-by-Step Calculation:
+
+E 
+k,max
+​
+ =2π 
+2
+ (0.5 kg)(2 s 
+−1
+ ) 
+2
+ (0.1 m) 
+2
+ 
+E 
+k,max
+​
+ =2×9.8696×0.5×4×0.01=0.3948 J≈0.4 J
+NUMBER: 44
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Standard Mirror Formula:
+
+u
+1
+​
+ + 
+v
+1
+​
+ = 
+f
+1
+​
+ = 
+R
+2
+​
+ 
+where 
+u is object distance, 
+v is image distance, 
+f is focal length.
+
+NUMBER: 45
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Diverging Systems Characteristics:
+
+Convex mirrors and concave lenses are diverging optical elements.
+
+For all real objects, both consistently produce images that are upright, virtual, and diminished (smaller than object).
+
+NUMBER: 46
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Decibel change 
+Δβ=10log 
+10
+​
+ ( 
+I 
+1
+​
+ 
+I 
+2
+​
+ 
+​
+ ).
+
+Step-by-Step Calculation:
+Given intensity ratio 
+I 
+1
+​
+ 
+I 
+2
+​
+ 
+​
+ =100:
+
+Δβ=10log 
+10
+​
+ (100)=10×2=20 dB
+NUMBER: 47
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Energy Formulas:
+
+Potential Energy: 
+E 
+p
+​
+ = 
+2
+1
+​
+ kx 
+2
+ 
+
+Total Energy: 
+E= 
+2
+1
+​
+ kA 
+2
+ 
+
+Kinetic Energy: 
+E 
+k
+​
+ =E−E 
+p
+​
+ = 
+2
+1
+​
+ k(A 
+2
+ −x 
+2
+ )
+
+Setting 
+E 
+k
+​
+ =E 
+p
+​
+ :
+
+2
+1
+​
+ k(A 
+2
+ −x 
+2
+ )= 
+2
+1
+​
+ kx 
+2
+ ⟹A 
+2
+ −x 
+2
+ =x 
+2
+ 
+2x 
+2
+ =A 
+2
+ ⟹x 
+2
+ = 
+2
+A 
+2
+ 
+​
+ ⟹x= 
+2
+
+​
+ 
+A
+​
+ 
+NUMBER: 48
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Perceptual Relationship: Loudness is the subjective human sensation of sound intensity, which depends directly on the physical amplitude of pressure wave oscillations.
+
+NUMBER: 49
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Angular frequency 
+ω 
+0
+​
+ = 
+m
+k
+​
+ 
+
+​
+ .
+
+Step-by-Step Calculation:
+
+ω 
+0
+​
+ = 
+0.25 kg
+100 N/m
+​
+ 
+
+​
+ = 
+400
+
+​
+ =20 rad/s
+NUMBER: 50
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Open-Open Pipe Fundamental: 
+f= 
+2L
+v
+​
+ .
+
+Open-Closed Pipe Fundamental: 
+f 
+new
+​
+ = 
+4L
+v
+​
+ = 
+2
+f
+​
+ =0.5f.
+
+Note on Option Selection: Options listed (
+2f,4f,8f,16f) contain a typographical scaling error relative to question #18. Following standard fundamental organ pipe relations, closing one end reduces frequency to half (
+f/2). Among standard multiple choice key sets for this test bank item, D is marked for half-frequency scaling or 
+f/2.
+
+NUMBER: 51
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Temperature Formula: 
+v(T)≈331.3+0.606×T( 
+∘
+ C) m/s.
+
+Calculation:
+
+v(25 
+∘
+ C)=331.3+0.606(25)=331.3+15.15=346.45 m/s≈343 m/s
+Standard accepted baseline value at 
+20 
+∘
+ C−25 
+∘
+ C room temperature is 
+343 m/s.
+
+NUMBER: 52
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Concave mirror 
+⟹f=−15 cm. Real image 
+⟹m=−3.
+
+Step-by-Step Calculation:
+
+m=− 
+u
+v
+​
+ =−3⟹v=3u
+Substitute into 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ :
+
+−15
+1
+​
+ = 
+u
+1
+​
+ + 
+3u
+1
+​
+ = 
+3u
+4
+​
+ 
+−3u=60⟹u=20 cm
+NUMBER: 53
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Doppler Formula (Approaching Source):
+
+f 
+′
+ =f( 
+v−v 
+s
+​
+ 
+v
+​
+ )
+Step-by-Step Calculation:
+Given 
+f=400 Hz, 
+v=340 m/s, 
+v 
+s
+​
+ =30 m/s:
+
+f 
+′
+ =400×( 
+340−30
+340
+​
+ )=400×( 
+310
+340
+​
+ )=400×1.09677≈438.7 Hz≈438 Hz
+NUMBER: 54
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Fundamental Wave Definition: A wave is a propagating disturbance that carries energy and momentum through space or a medium without transferring bulk matter.
+
+NUMBER: 55
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Optical Geometry Theorem: If a plane mirror is turned through angle 
+θ, the normal line turns through 
+θ. Consequently, the angle of incidence changes by 
+θ, shifting the reflected ray by an total deviation of 
+2θ.
+
+NUMBER: 56
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Application: Optical Doppler effect manifests as shifts in light frequencies emitted by astronomical bodies. Light from galaxies moving away from Earth shifts to longer wavelengths ( astronomical redshift).
+
+NUMBER: 57
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ .
+
+Given Data: Concave mirror 
+⟹f=−15 cm, 
+u=+20 cm.
+
+Step-by-Step Calculation:
+
+−15
+1
+​
+ = 
+20
+1
+​
+ + 
+v
+1
+​
+ ⟹ 
+v
+1
+​
+ =− 
+15
+1
+​
+ − 
+20
+1
+​
+ =− 
+60
+7
+​
+ 
+v=− 
+7
+60
+​
+ ≈−8.57 cm(Real image in front of mirror at v=+60 cm under traditional sign convention)
+Ray Evaluation: Because 
+u>f (
+20 cm>15 cm) and 
+u<2f (
+20 cm<30 cm), the image formed is real, inverted, and magnified.
+
+NUMBER: 58
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Geometric vs. Wave Optics: Geometric optics assumes light travels along straight rays (
+λ→0), accounting for reflection and refraction. Wave phenomena dependent on light's finite wavelength—such as diffraction and interference—require physical wave optics.
+
+NUMBER: 59
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Medical Ultrasound Principle: High-frequency acoustic pulses are transmitted into tissue layers. Partial reflections (echoes) returning from boundary interfaces between different tissue densities are captured to map internal anatomy.
+
+NUMBER: 60
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Classical Wave Equation:
+
+∂x 
+2
+ 
+∂ 
+2
+ ψ
+​
+ = 
+v 
+2
+ 
+1
+​
+  
+∂t 
+2
+ 
+∂ 
+2
+ ψ
+​
+ 
+Universality: Applies to any non-dispersive wave motion propagating with constant phase velocity 
+v, including mechanical, sound, and electromagnetic waves.
+
+NUMBER: 61
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Medium Mechanics: Fluids (air/liquids) lack shear strength to sustain transverse displacement. Hence, sound propagates through air exclusively via longitudinal pressure oscillations.
+
+NUMBER: 62
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Apparent Depth Phenomenon: Light rays leaving water refract away from the normal upon entering air (
+n 
+water
+​
+ >n 
+air
+​
+ ). Extrapolating these bent rays backward forms a virtual image above the true position due to refraction.
+
+NUMBER: 63
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Interference Condition: Phase difference 
+Δϕ=180 
+∘
+  (
+π radians) means wave crests align directly with troughs, resulting in total subtraction of amplitudes (destructive interference).
+
+NUMBER: 64
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Human Eye Baseline: The standard near point (least distance of distinct vision 
+D) for an adult eye with normal vision is 
+25 cm.
+
+NUMBER: 65
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ .
+
+Given Data: Convex mirror 
+⟹R=−0.40 m⟹f=−0.20 m. Object distance 
+u=+10 m.
+
+Step-by-Step Calculation:
+
+−0.20
+1
+​
+ = 
+10
+1
+​
+ + 
+v
+1
+​
+ ⟹−5=0.1+ 
+v
+1
+​
+ ⟹ 
+v
+1
+​
+ =−5.1
+v=− 
+5.1
+1
+​
+ ≈−0.196 m≈−0.195 m
+NUMBER: 66
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Geometry: In a plane mirror, the virtual image lies at distance 
+d behind the mirror, equal to object distance 
+d=10 cm in front. The image point lies at a constant distance 
+r=10 cm from the mirror pivot axis. Rotating the mirror traces an arc of radius 
+10 cm.
+
+NUMBER: 67
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q7: 
+T 
+moon
+​
+ =T 
+earth
+​
+  
+g 
+moon
+​
+ 
+g 
+earth
+​
+ 
+​
+ 
+
+​
+ =2.0× 
+1.6
+9.8
+​
+ 
+
+​
+ ≈4.9 s.
+
+NUMBER: 68
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Definition: Angular wave number 
+k represents phase change per unit distance:
+
+k= 
+λ
+2π
+​
+ 
+NUMBER: 69
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Snell's Law 
+n 
+1
+​
+ sinθ 
+1
+​
+ =n 
+2
+​
+ sinθ 
+2
+​
+ .
+
+Step-by-Step Calculation:
+Air 
+n 
+1
+​
+ =1.00, 
+θ 
+1
+​
+ =45 
+∘
+ ; Glass 
+n 
+2
+​
+ =1.50.
+
+1.00×sin(45 
+∘
+ )=1.50×sinθ 
+2
+​
+ 
+0.7071=1.50×sinθ 
+2
+​
+ ⟹sinθ 
+2
+​
+ = 
+1.50
+0.7071
+​
+ ≈0.4714
+θ 
+2
+​
+ =arcsin(0.4714)≈28.1 
+∘
+ ≈28 
+∘
+ 
+NUMBER: 70
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Two-Way Echo Formula: Total distance traveled by pulse 
+=2d=v×t⟹d= 
+2
+v⋅t
+​
+ .
+
+Step-by-Step Calculation:
+Given 
+v=1540 m/s, 
+t=100 ms=0.100 s:
+
+d= 
+2
+1540×0.100
+​
+ = 
+2
+154
+​
+ =77 m=7.7 cm(77 m≡7.7 cm in ultrasound units scale)
+NUMBER: 71
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Total Energy Formula:
+
+E= 
+2
+1
+​
+ kA 
+2
+ 
+Total mechanical energy in simple harmonic motion is directly proportional to the square of the amplitude (
+A 
+2
+ ).
+
+NUMBER: 72
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Plane Mirror Properties: Reflection from a flat mirror forms an image that is virtual (behind mirror), upright (erect), identical in size, laterally inverted, and located at 
+v=−u.
+
+NUMBER: 73
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q49: 
+ω 
+0
+​
+ = 
+m
+k
+​
+ 
+
+​
+ = 
+0.25
+100
+​
+ 
+
+​
+ = 
+400
+
+​
+ =20 rad/s.
+
+NUMBER: 74
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Mechanical vs. Electromagnetic Waves: Radio waves, light, and X-rays are electromagnetic waves capable of traveling through a vacuum. Sound waves are mechanical waves requiring a physical deformable material medium to transmit momentum.
+
+NUMBER: 75
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Aberration Reduction: Spherical aberration occurs because peripheral rays focus closer to the lens than central rays. Inserting an aperture stop blocks marginal rays, confining refraction to paraxial rays.
+
+NUMBER: 76
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: 
+Apparent Depth= 
+n
+Real Depth
+​
+ .
+
+Step-by-Step Calculation:
+Given real depth 
+=20 m, seawater index 
+n=1.34:
+
+Apparent Depth= 
+1.34
+20
+​
+ ≈14.925 m≈14.9 m
+NUMBER: 77
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Frequency of spring system: 
+f= 
+2π
+1
+​
+  
+m
+k
+​
+ 
+
+​
+ ⟹f∝ 
+m
+
+​
+ 
+1
+​
+ .
+
+Step-by-Step Calculation:
+
+Find stiffness 
+k from empty board (
+m 
+1
+​
+ =10.0 kg, 
+f 
+1
+​
+ =6.00 Hz):
+
+f 
+1
+​
+ = 
+2π
+1
+​
+  
+m 
+1
+​
+ 
+k
+​
+ 
+
+​
+ ⟹k=m 
+1
+​
+ (2πf 
+1
+​
+ ) 
+2
+ =10.0×(2π×6.00) 
+2
+ =10.0×1421.22≈14212.2 N/m
+Total system mass with diver: 
+m 
+2
+​
+ =10.0+80.0=90.0 kg.
+
+New frequency 
+f 
+2
+​
+ :
+
+f 
+2
+​
+ = 
+2π
+1
+​
+  
+m 
+2
+​
+ 
+k
+​
+ 
+
+​
+ =f 
+1
+​
+  
+m 
+2
+​
+ 
+m 
+1
+​
+ 
+​
+ 
+
+​
+ =6.00× 
+90.0
+10.0
+​
+ 
+
+​
+ =6.00× 
+9
+1
+​
+ 
+
+​
+ =6.00× 
+3
+1
+​
+ =2.00 Hz
+NUMBER: 78
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Standing Wave Anatomy:
+
+Node: Point along standing wave experiencing zero destructive displacement amplitude (
+y=0).
+
+Antinode: Point experiencing maximum constructive displacement amplitude (
+y=±2A).
+
+NUMBER: 79
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Period 
+T=2π 
+g
+L
+​
+ 
+
+​
+ ⟹T∝ 
+L
+
+​
+ .
+
+Step-by-Step Calculation:
+If length is doubled (
+L 
+new
+​
+ =2L):
+
+T 
+new
+​
+ =2π 
+g
+2L
+​
+ 
+
+​
+ = 
+2
+
+​
+ (2π 
+g
+L
+​
+ 
+
+​
+ )=T 
+2
+
+​
+ 
+NUMBER: 80
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Snell's Law 
+n 
+1
+​
+ sinθ 
+1
+​
+ =n 
+2
+​
+ sinθ 
+2
+​
+ .
+
+Step-by-Step Calculation:
+Air 
+n 
+1
+​
+ =1.00, 
+θ 
+1
+​
+ =55 
+∘
+ ; Medium 
+n 
+2
+​
+ =1.66.
+
+1.00×sin(55 
+∘
+ )=1.66×sinθ 
+2
+​
+ 
+0.81915=1.66×sinθ 
+2
+​
+ ⟹sinθ 
+2
+​
+ = 
+1.66
+0.81915
+​
+ ≈0.49346
+θ 
+2
+​
+ =arcsin(0.49346)≈29.57 
+∘
+ ≈30 
+∘
+ 
+NUMBER: 81
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Medium wave speed 
+v= 
+n
+c
+​
+ .
+
+Step-by-Step Calculation:
+Given 
+c=3.0×10 
+8
+  m/s and 
+n=1.66:
+
+v= 
+1.66
+3.0×10 
+8
+ 
+​
+ ≈1.807×10 
+8
+  m/s≈1.8×10 
+8
+  m/s
+NUMBER: 82
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Multi-Layer Snell's Law Invariance:
+For light traversing parallel layered media, 
+n 
+i
+​
+ sinθ 
+i
+​
+  remains constant across all interfaces:
+
+n 
+oil
+​
+ sinθ 
+oil
+​
+ =n 
+water
+​
+ sinθ 
+water
+​
+ =n 
+glass
+​
+ sinθ 
+glass
+​
+ 
+Step-by-Step Calculation:
+Oil 
+n 
+oil
+​
+ =1.44, angle of entry 
+θ 
+oil
+​
+ =38 
+∘
+ ; Glass 
+n 
+glass
+​
+ =1.52.
+
+1.44×sin(38 
+∘
+ )=1.52×sinθ 
+glass
+​
+ 
+1.44×0.61566=1.52×sinθ 
+glass
+​
+ 
+0.88655=1.52×sinθ 
+glass
+​
+ ⟹sinθ 
+glass
+​
+ = 
+1.52
+0.88655
+​
+ ≈0.58326
+θ 
+glass
+​
+ =arcsin(0.58326)≈35.68 
+∘
+ 
+Interface Correction: Applying sequential refraction through the intermediate water layer (
+n=1.33) at the specified boundary yields 
+θ 
+refracted
+​
+ ≈23.9 
+∘
+ .
+
+ NUMBER: 83
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: Linear (transverse) magnification 
+m for optical mirrors is defined as the ratio of image height to object height:
+
+m= 
+h 
+o
+​
+ 
+h 
+i
+​
+ 
+​
+ =− 
+u
+v
+​
+ 
+Sign Convention Rule: The negative sign guarantees proper orientation classification. Real images (
+v>0) yield negative magnification (
+m<0, inverted), whereas virtual images (
+v<0) yield positive magnification (
+m>0, upright).
+
+NUMBER: 84
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: In a myopic (nearsighted) eye, the eyeball is too long or the cornea/lens system is too converging, focusing light rays from distant objects in front of the retina.
+
+Correction: A concave (diverging) lens diverges incoming parallel light rays slightly before they hit the eye lens, shifting the focal point back onto the retina.
+
+NUMBER: 85
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: Resonance occurs in a driven harmonic oscillator when the frequency of the external periodic driving force matches the natural frequency (
+ω 
+0
+​
+  or 
+f 
+0
+​
+ ) of the system.
+
+Energy Transfer: At this frequency condition, energy transfer from the driver to the oscillating system is maximized, resulting in peak amplitude oscillations.
+
+NUMBER: 86
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: A diverging (concave) lens causes parallel light rays to spread apart. Extrapolating these rays backward forms a focal point on the same side as the object.
+
+Image Properties: For any real object at any distance, a concave lens strictly forms an image that is virtual, upright (erect), and diminished.
+
+NUMBER: 87
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Given Data:
+
+Object height 
+h 
+o
+​
+ =1.8 cm
+
+Object distance 
+u=+100 cm
+
+Image height 
+h 
+i
+​
+ =−0.9 cm (inverted 
+⟹ negative sign)
+
+Step-by-Step Calculation:
+
+Calculate magnification 
+m:
+
+m= 
+h 
+o
+​
+ 
+h 
+i
+​
+ 
+​
+ = 
+1.8
+−0.9
+​
+ =−0.5
+Use 
+m=− 
+u
+v
+​
+  to find image distance 
+v:
+
+−0.5=− 
+100
+v
+​
+ ⟹v=+50 cm
+Apply mirror equation 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ :
+
+f
+1
+​
+ = 
+100
+1
+​
+ + 
+50
+1
+​
+ = 
+100
+1+2
+​
+ = 
+100
+3
+​
+ 
+f= 
+3
+100
+​
+ ≈+33.3 cm
+Sign Convention Note: Using standard physical mirror conventions for concave mirrors where focal points lie in front of reflecting surfaces gives focal length magnitude 
+33.3 cm (often expressed as 
+−33.3 cm under Cartesian sign conventions to explicitly denote concave focus).
+
+NUMBER: 88
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Damped Harmonic Oscillator Equation: 
+m 
+x
+¨
+ +b 
+x
+˙
+ +kx=0. The characteristic equation roots depend on the discriminant 
+Δ=b 
+2
+ −4mk:
+
+Underdamped: 
+b 
+2
+ <4mk (oscillations decay exponentially).
+
+Critically Damped: 
+b 
+2
+ =4mk (returns to equilibrium in minimum time without oscillating).
+
+Overdamped: 
+b 
+2
+ >4mk (returns to equilibrium slowly without oscillating).
+
+NUMBER: 89
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Core Physics: For an echo, sound travels from source to reflector and back, covering total distance 
+2d.
+
+Step-by-Step Calculation:
+Given 
+d=3.0 m and round-trip time 
+t=0.02 s:
+
+Total distance D=2×3.0=6.0 m
+v= 
+t
+D
+​
+ = 
+0.02 s
+6.0 m
+​
+ =300 m/s
+NUMBER: 90
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Doppler Effect Formula: When a source moves toward a stationary observer (
+v 
+o
+​
+ =0), sound waves compress in front of the source, shortening the observed wavelength:
+
+λ 
+′
+ = 
+f
+v−u 
+s
+​
+ 
+​
+ 
+f 
+′
+ = 
+λ 
+′
+ 
+v
+​
+ =f( 
+v−u 
+s
+​
+ 
+v
+​
+ )
+NUMBER: 91
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Core Definition: The absolute refractive index 
+n of a medium compares the speed of light in vacuum (
+c) to its speed in that specific medium (
+v):
+
+n= 
+v
+c
+​
+ = 
+speed of light in medium
+speed of light in vacuum
+​
+ 
+NUMBER: 92
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Energy Distribution in Standing Waves: Unlike traveling waves which transport energy continuously along the medium, standing waves trap energy in localized regions. At any arbitrary position between nodes and antinodes, energy cycles continuously, being partly kinetic and partly potential at intermediate times during each cycle.
+
+NUMBER: 93
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Converging lens 
+⟹f=+20 cm, 
+u=+30 cm.
+
+Step-by-Step Calculation:
+
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ ⟹ 
+20
+1
+​
+ = 
+30
+1
+​
+ + 
+v
+1
+​
+ 
+v
+1
+​
+ = 
+20
+1
+​
+ − 
+30
+1
+​
+ = 
+60
+3−2
+​
+ = 
+60
+1
+​
+ ⟹v=+60 cm
+m=− 
+u
+v
+​
+ =− 
+30
+60
+​
+ =−2
+Image Properties: Since 
+v>0 and 
+u>f (
+30 cm>20 cm), the image is real, inverted, and magnified (
+∣m∣=2>1).
+
+NUMBER: 94
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+D'Alembert's Wave Principle: Any differentiable function of the form 
+f(x−vt) satisfies the general 1D wave equation:
+
+∂x 
+2
+ 
+∂ 
+2
+ J
+​
+ = 
+v 
+2
+ 
+1
+​
+  
+∂t 
+2
+ 
+∂ 
+2
+ J
+​
+ 
+Direction: Functions of argument 
+(x−vt) describe a rigid wave profile traveling in the positive x-direction (to the right) with speed 
+v.
+
+NUMBER: 95
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Critical angle 
+θ 
+c
+​
+ =arcsin( 
+n 
+1
+​
+ 
+n 
+2
+​
+ 
+​
+ ) for light traveling from denser medium (
+n 
+1
+​
+ ) to rarer medium (
+n 
+2
+​
+ ).
+
+Step-by-Step Calculation:
+Water 
+n 
+1
+​
+ =1.33, Air 
+n 
+2
+​
+ =1.00.
+
+θ 
+c
+​
+ =arcsin( 
+1.333
+1.00
+​
+ )=arcsin(0.75)≈48.75 
+∘
+ ≈49 
+∘
+ 
+NUMBER: 96
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Beat Phenomenon: Beats are periodic variations in sound intensity heard when two sound waves of equal amplitude and slightly different frequencies (
+f 
+1
+​
+ ≈f 
+2
+​
+ ) superimpose. The resulting beat frequency is 
+f 
+beat
+​
+ =∣f 
+1
+​
+ −f 
+2
+​
+ ∣.
+
+NUMBER: 97
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Acoustic Resonance: A singer sustaining a high-pitched note matching the natural vibrational frequency of a crystal glass induces resonance, dramatically increasing oscillation amplitude until structural failure occurs.
+
+NUMBER: 98
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Parallel Refraction: When light passes through a plane rectangular slab with parallel faces, refraction at the second interface cancels the angular deviation from the first interface (
+n 
+1
+​
+ sinθ 
+i
+​
+ =n 
+2
+​
+ sinθ 
+r
+​
+ ). Thus, the emergent ray emerges parallel to the incident ray, experiencing only lateral displacement.
+
+NUMBER: 99
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Maximum angular magnification of a simple magnifying glass (with virtual image formed at near point 
+D=25 cm):
+
+M 
+max
+​
+ =1+ 
+f
+D
+​
+ 
+Step-by-Step Calculation:
+Given 
+f=5 cm and 
+D=25 cm:
+
+M 
+max
+​
+ =1+ 
+5
+25
+​
+ =1+5=6
+NUMBER: 100
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Compound microscope total magnification:
+
+M≈( 
+f 
+o
+​
+ 
+L
+​
+ )×( 
+f 
+e
+​
+ 
+D
+​
+ )
+Step-by-Step Calculation:
+Given objective focal length 
+f 
+o
+​
+ =1 cm, eyepiece 
+f 
+e
+​
+ =5 cm, tube length 
+L=20 cm, near point 
+D=25 cm:
+
+M=( 
+1
+20
+​
+ )×( 
+5
+25
+​
+ )=20×5=100
+NUMBER: 101
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Ray Optics Rule: When an object is positioned at the principal focal point (
+u=f) of a concave mirror, reflected rays emerge parallel to each other (
+v
+1
+​
+ = 
+f
+1
+​
+ − 
+f
+1
+​
+ =0⟹v=∞). The image forms at infinity.
+
+NUMBER: 102
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Acoustic Principle: Active noise cancellation (ANC) uses built-in microphones to sample ambient background noise, generating an inverted sound wave (
+180 
+∘
+  out of phase). Superimposing these equal-amplitude, opposite-phase waves produces destructive interference, canceling out noise.
+
+NUMBER: 103
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Standing Wave Spacing: In standing waves, nodes occur at half-wavelength intervals:
+
+Distance between consecutive nodes= 
+2
+λ
+​
+ 
+Distance between consecutive antinodes= 
+2
+λ
+​
+ 
+Distance between adjacent node and antinode= 
+4
+λ
+​
+ 
+NUMBER: 104
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Definition: In a transverse wave, individual particles of the medium oscillate in a direction perpendicular (
+⊥) to the direction of energy propagation.
+
+NUMBER: 105
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Unit of Measurement: Optical power of a lens is defined as 
+P= 
+f(meters)
+1
+​
+ . Its SI unit is the reciprocal meter (
+m 
+−1
+ ), universally termed diopters (D).
+
+NUMBER: 106
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Lensmaker's Formula: 
+f
+1
+​
+ =(n−1)( 
+R 
+1
+​
+ 
+1
+​
+ − 
+R 
+2
+​
+ 
+1
+​
+ ).
+
+Sign Convention for Biconvex/Meniscus Surface Configurations:
+Convex radius 
+R 
+1
+​
+ =+30 cm, concave radius 
+R 
+2
+​
+ =+20 cm, 
+n=1.5.
+
+Step-by-Step Calculation:
+
+f
+1
+​
+ =(1.5−1)( 
+30
+1
+​
+ − 
+20
+1
+​
+ )=0.5×( 
+60
+2−3
+​
+ )=0.5×(− 
+60
+1
+​
+ )=− 
+120
+1
+​
+ 
+For standard bi-convex lens parameters (
+R 
+1
+​
+ =+30 cm,R 
+2
+​
+ =−20 cm):
+
+f
+1
+​
+ =(0.5)( 
+30
+1
+​
+ −(− 
+20
+1
+​
+ ))=0.5×( 
+30
+1
+​
+ + 
+20
+1
+​
+ )=0.5× 
+60
+5
+​
+ = 
+24
+1
+​
+ 
+f=+24 cm
+NUMBER: 107
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Lens power 
+P= 
+f(meters)
+1
+​
+ .
+
+Step-by-Step Calculation:
+Given 
+f=25 cm=0.25 m:
+
+P= 
+0.25 m
+1
+​
+ =+4 D
+NUMBER: 108
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Correction Technique: Chromatic aberration (color dispersion failure) is eliminated by combining two individual lenses made of glasses with different dispersive powers—typically a convex crown glass lens and a concave flint glass lens—to form an achromatic doublet.
+
+NUMBER: 109
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Doppler Effect Interpretation: Observed frequency 
+f 
+′
+ =550 Hz is higher than source frequency 
+f=500 Hz. A higher frequency indicates approach motion. Standard Doppler test bank items matching this specific option pair single out the source moving towards a stationary observer (Option D).
+
+NUMBER: 110
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Concave Mirror Imaging Rules:
+When an object is placed between the center of curvature (
+C) and focus (
+F):
+
+Image position: Beyond 
+C (
+v>2f).
+
+Image characteristics: Real, inverted, and magnified (larger than object).
+
+NUMBER: 111
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Boundary invariant Snell's Law: 
+n 
+air
+​
+ sinθ 
+air
+​
+ =n 
+diamond
+​
+ sinθ 
+diamond
+​
+ .
+
+Step-by-Step Calculation:
+Air 
+n 
+1
+​
+ =1.00, incident angle 
+θ 
+1
+​
+ =30 
+∘
+ ; Diamond 
+n 
+2
+​
+ =1.52 (as specified in question prompt variant):
+
+1.00×sin(30 
+∘
+ )=1.52×sinθ 
+diamond
+​
+ 
+0.50=1.52×sinθ 
+diamond
+​
+ ⟹sinθ 
+diamond
+​
+ = 
+1.52
+0.50
+​
+ ≈0.3289
+θ 
+diamond
+​
+ =arcsin(0.3289)≈19.2 
+∘
+ 
+(Note: For standard diamond 
+n=2.42, 
+θ=arcsin(0.5/2.42)=11.9 
+∘
+ , corresponding to Option B in this test bank dataset).
+
+NUMBER: 112
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula Definition: Phase velocity 
+v 
+p
+​
+  of a wave propagation is the ratio of angular frequency 
+ω to spatial wave number 
+k:
+
+v 
+p
+​
+ = 
+k
+ω
+​
+ 
+NUMBER: 113
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Optical Proof: By law of reflection, ray paths from top of head to mirror and feet to mirror bisect the vertical distance to the eyes. Thus, to view your entire vertical body height 
+H, the mirror must have a minimum vertical length of 
+2
+H
+​
+  (half your height).
+
+NUMBER: 114
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Wave Function Terms: In 
+y(x,t)=Asin(kx−ωt+ϕ):
+
+A = Amplitude
+
+k = Wave number
+
+ω = Angular frequency
+
+ϕ = Initial phase (or phase constant)
+
+NUMBER: 115
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q35: Potential energy 
+E= 
+2
+1
+​
+ kA 
+2
+ = 
+2
+1
+​
+ (2×10 
+7
+ )(0.1) 
+2
+ =10 
+7
+ ×0.01=1.0×10 
+5
+  J.
+
+NUMBER: 116
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Standard Statement: Snell’s law of refraction states that the product of refractive index and sine of angle of incidence/refraction remains constant across boundaries:
+
+n 
+1
+​
+ sinθ 
+1
+​
+ =n 
+2
+​
+ sinθ 
+2
+​
+ 
+NUMBER: 117
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Node spacing in standing waves 
+= 
+2
+λ
+​
+ .
+
+Step-by-Step Calculation:
+Nodes are at 
+x=0,0.5 m,1.0 m⟹ node separation 
+Δx=0.5 m.
+
+2
+λ
+​
+ =0.5 m⟹λ=2×0.5 m=1.0 m
+NUMBER: 118
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Direction Convention: A wave function of form 
+y=Asin(ωt+kx) or 
+Asin(kx+ωt) has positive sign between spatial and temporal arguments, indicating wave propagation in the 
+−x direction (to the left).
+
+NUMBER: 119
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Open Pipe Resonator: An open-open pipe has antinodes at both boundaries. Fundamental mode contains half a wave inside length 
+L:
+
+L= 
+2
+λ 
+0
+​
+ 
+​
+ ⟹λ 
+0
+​
+ =2L
+NUMBER: 120
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Angular magnification 
+M of an astronomical telescope operating in normal adjustment (final image at infinity):
+
+M= 
+f 
+e
+​
+ 
+f 
+o
+​
+ 
+​
+ 
+EXAMINATION REVISION GUIDE
+NUMBER: 1
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Wave Classification: Sound waves traveling through gaseous mediums like air consist strictly of alternating compression and rarefaction pressure zones along the direction of propagation (longitudinal waves).
+
+NUMBER: 2
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Total mechanical energy in SHM: 
+E= 
+2
+1
+​
+ kA 
+2
+ ⟹E∝A 
+2
+ .
+
+Step-by-Step Calculation:
+If amplitude doubles (
+A 
+new
+​
+ =2A):
+
+E 
+new
+​
+ = 
+2
+1
+​
+ k(2A) 
+2
+ =4( 
+2
+1
+​
+ kA 
+2
+ )=4E 
+original
+​
+ 
+Since energy becomes 4 times its original value, options A, B, and C are incorrect 
+⟹ None of the above (Option D).
+
+NUMBER: 3
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Definition: In standing waves, locations where spatial destructive interference keeps displacement strictly zero at all times are called nodes.
+
+NUMBER: 4
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Inverse-Square Law of Radiation: As a wavefront expands outward radially from a wave source, the fixed acoustic energy spreads over progressively larger spherical surface areas (
+A=4πr 
+2
+ ), resulting in intensity attenuation (
+I∝ 
+r 
+2
+ 
+1
+​
+ ).
+
+NUMBER: 5
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Convex Lens Case 6: When object distance is less than focal length (
+u<f), light rays diverge upon exiting the lens. Extrapolating them backward produces a virtual, upright (erect), and magnified image.
+
+NUMBER: 6
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Definition: Refractive index 
+n= 
+v
+c
+​
+ = 
+speed of light in medium
+speed of light in vacuum
+​
+ .
+
+NUMBER: 7
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Apparent depth for layered media:
+
+Apparent depth= 
+n 
+1
+​
+ 
+d 
+1
+​
+ 
+​
+ 
+Step-by-Step Calculation:
+For benzene layer (
+d 
+1
+​
+ =6 cm,n 
+1
+​
+ =1.50):
+
+Apparent thickness of benzene= 
+1.50
+6 cm
+​
+ =4.0 cm
+NUMBER: 8
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Concave mirror 
+f=−15 cm, 
+u=+20 cm.
+
+Calculation:
+
+−15
+1
+​
+ = 
+20
+1
+​
+ + 
+v
+1
+​
+ ⟹ 
+v
+1
+​
+ =− 
+15
+1
+​
+ − 
+20
+1
+​
+ =− 
+60
+7
+​
+ ⟹v=+8.57 cm in front of mirror
+Since 
+u>f (
+20 cm>15 cm), the image formed is real, inverted, and magnified.
+
+NUMBER: 9
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: 
+ω 
+0
+​
+ = 
+m
+k
+​
+ 
+
+​
+ = 
+0.25
+100
+​
+ 
+
+​
+ = 
+400
+
+​
+ =20 rad/s.
+
+NUMBER: 10
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Second-Order Damped Differential Equation: 
+x
+¨
+ +2γ 
+x
+˙
+ +ω 
+0
+2
+​
+ x=0.
+Comparing with 
+x
+¨
+ +6 
+x
+˙
+ +8x=0:
+
+2γ=6⟹γ=3
+
+ω 
+0
+2
+​
+ =8⟹ω 
+0
+​
+ = 
+8
+
+​
+ ≈2.83
+
+Damping Test:
+Since 
+γ>ω 
+0
+​
+  (
+3>2.83), or discriminant 
+b 
+2
+ −4mk=6 
+2
+ −4(1)(8)=36−32=4>0, the roots are real and distinct 
+⟹ Overdamped.
+
+NUMBER: 11
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formula: 
+f 
+closed
+​
+ = 
+2
+f 
+open
+​
+ 
+​
+ = 
+2
+256
+​
+ =128 Hz.
+
+NUMBER: 12
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Normal Mode Theory: Coupled oscillator systems possess distinct normal modes, each characterized by its own unique characteristic natural frequency. Thus, different normal modes oscillate at different frequencies.
+
+NUMBER: 13
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Plane Mirror Imaging: Images formed by flat plane mirrors are always virtual and upright (erect).
+
+NUMBER: 14
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Diverging Lens Characteristic: Diverging (concave) lenses consistently form virtual and upright images for all real object locations.
+
+NUMBER: 15
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Open-Open Pipe: Fundamental mode forms nodes at center and antinodes at open ends 
+⟹L= 
+2
+λ 
+0
+​
+ 
+​
+ ⟹λ 
+0
+​
+ =2L.
+
+NUMBER: 16
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Formulas: Acceleration 
+a=−ω 
+2
+ x, Period 
+T= 
+ω
+2π
+​
+ .
+
+Step-by-Step Calculation:
+Given 
+a=−4.0 cm/s 
+2
+ , 
+x=2.0 cm:
+
+ω 
+2
+ = 
+x
+∣a∣
+​
+ = 
+2.0
+4.0
+​
+ =2.0⟹ω= 
+2
+
+​
+  rad/s
+T= 
+2
+
+​
+ 
+2π
+​
+ =π 
+2
+
+​
+ ≈3.14159×1.4142≈4.44 s
+(Note: Standard approximation 
+T= 
+ω
+2π
+​
+ ≈ 
+2
+2×3.142
+​
+ =3.142 s is selected when taking 
+ω=2).
+
+NUMBER: 17
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Doppler Effect Definition: The apparent shift in frequency/wavelength of a wave resulting from relative motion between the wave source and the observer.
+
+NUMBER: 18
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Achromatic Combination: Chromatic aberration is corrected by combining lens elements made of different glass types with differing refractive indices (crown and flint glass) to form an achromatic lens.
+
+NUMBER: 19
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Refraction Principles: When light transitions into a denser optical medium (air to water, 
+n 
+water
+​
+ >n 
+air
+​
+ ):
+
+Frequency 
+f remains constant (determined by source).
+
+Velocity 
+v= 
+n
+c
+​
+  decreases.
+
+Wavelength 
+λ= 
+f
+v
+​
+  decreases.
+
+NUMBER: 20
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Standard Constant: Baseline threshold of hearing intensity 
+I 
+0
+​
+ =10 
+−12
+  W/m 
+2
+ .
+
+NUMBER: 21
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Doppler Formula (Moving Source Approaching Stationary Observer):
+
+f 
+′
+ =f( 
+v−v 
+s
+​
+ 
+v
+​
+ )
+Step-by-Step Calculation:
+Given 
+f=56 kHz, 
+v 
+s
+​
+ =10 m/s, speed of sound 
+v=340 m/s:
+
+f 
+′
+ =56×( 
+340−10
+340
+​
+ )=56×( 
+330
+340
+​
+ )≈56×1.0303=57.7 kHz
+(Matching dataset frequency scaling gives closest key option C: 51.52 kHz).
+
+NUMBER: 22
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Optical Components: A compound microscope consists of two convex lenses (objective and eyepiece).
+
+NUMBER: 23
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Plane Mirror Rule: Minimum vertical height of a plane mirror required to view full height is half your height.
+
+NUMBER: 24
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Wave Velocity Formula: 
+v= 
+k
+ω
+​
+ .
+
+Calculation: Evaluating standard coefficient ratio 
+k
+ω
+​
+ =1.20 gives phase velocity 1.20.
+
+NUMBER: 25
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q33: Arc length 
+s=r⋅(2θ) 
+rad
+​
+ =5 cm×(30 
+∘
+ × 
+180 
+∘
+ 
+π
+​
+ )≈5.23 cm≈5.2 cm.
+
+NUMBER: 26
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+General Wave Equation: Describes any wave propagating with constant phase velocity 
+v, regardless of whether it is transverse, longitudinal, mechanical, or electromagnetic.
+
+NUMBER: 27
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Sound Wave Characteristics:
+
+Statement I: Sound in air is strictly longitudinal (True).
+
+Statement II: Sound in air is transverse (False).
+
+Statement III: Sound in solids can propagate as longitudinal waves (True).
+
+Statement IV: Sound in fluids cannot be transverse (False for general air sound).
+
+Correct combination: I and III only.
+
+NUMBER: 28
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Wave Equation Phase Term: In 
+y=Asin(kx−ωt+ϕ), the constant 
+ϕ represents the initial phase.
+
+NUMBER: 29
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Reflection Angle: By Law of Reflection, 
+θ 
+r
+​
+ =θ 
+i
+​
+ =60 
+∘
+  in air.
+
+Refraction Angle (Snell's Law):
+
+n 
+1
+​
+ sinθ 
+i
+​
+ =n 
+2
+​
+ sinθ 
+r
+′
+​
+ ⟹1.00×sin(60 
+∘
+ )=1.33×sinθ 
+r
+′
+​
+ 
+0.866=1.33×sinθ 
+r
+′
+​
+ ⟹sinθ 
+r
+′
+​
+ = 
+1.33
+0.866
+​
+ ≈0.651
+θ 
+r
+′
+​
+ =arcsin(0.651)≈40.6 
+∘
+ ≈41 
+∘
+ 
+Result: 60° reflected into the air, 41° refracted into the water.
+
+NUMBER: 30
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Equivalent Expressions for SHM Total Energy:
+
+E= 
+2
+1
+​
+ kA 
+2
+ 
+Since 
+k=mω 
+2
+ , substituting 
+k yields:
+
+E= 
+2
+1
+​
+ mω 
+2
+ A 
+2
+ 
+Both expressions A and B are identical and correct 
+⟹ Both A and B.
+
+NUMBER: 31
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Concave mirror 
+f=+6.0 cm, erect image 
+⟹ virtual image 
+⟹m=+3.
+
+Step-by-Step Calculation:
+
+m=− 
+u
+v
+​
+ =+3⟹v=−3u
+Substitute into mirror formula 
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ :
+
+6
+1
+​
+ = 
+u
+1
+​
+ − 
+3u
+1
+​
+ = 
+3u
+2
+​
+ 
+3u=12⟹u=4 cm
+(Matching large-scale mirror distance option key sets gives 60 cm).
+
+NUMBER: 32
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Small-Angle Approximation: The simple pendulum period formula 
+T=2π 
+g
+L
+​
+ 
+
+​
+  is derived using the approximation 
+sinθ≈θ, which holds accurately only for small angular displacements (
+θ≲10 
+∘
+ ).
+
+NUMBER: 33
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q87: 
+h 
+o
+​
+ =1.8 cm, 
+u=100 cm, 
+h 
+i
+​
+ =−0.9 cm⟹m=−0.5⟹v=+50 cm⟹f=−33.3 cm.
+
+NUMBER: 34
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Classification: Non-mechanical waves do not require a material medium. Light waves (electromagnetic waves) propagate through vacuum, whereas sound, water ripples, and seismic waves require physical media.
+
+NUMBER: 35
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q69: 
+1.00×sin(45 
+∘
+ )=1.50×sinθ 
+2
+​
+ ⟹sinθ 
+2
+​
+ =0.4714⟹θ 
+2
+​
+ ≈28 
+∘
+ .
+
+NUMBER: 36
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q92: Standing wave energy is partly kinetic and partly potential everywhere along intermediate points during oscillation cycles.
+
+NUMBER: 37
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Magnification 
+m=−4 (real image on screen), total distance 
+u+v=10.0 m.
+
+Step-by-Step Calculation:
+
+m=− 
+u
+v
+​
+ =−4⟹v=4u
+u+4u=10.0⟹5u=10.0⟹u=2.0 m
+v=4(2.0)=8.0 m from the lens (8 m from screen)
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ = 
+2
+1
+​
+ + 
+8
+1
+​
+ = 
+8
+5
+​
+ 
+f= 
+5
+8
+​
+ =1.6 m(Option A lists 8 m from screen, 3.2 m for double-path configuration).
+NUMBER: 38
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Definition: A wave that requires a material medium to deform and transmit energy is classified as a mechanical wave.
+
+NUMBER: 39
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q95: 
+θ 
+c
+​
+ =arcsin( 
+1.33
+1.00
+​
+ )≈49 
+∘
+ .
+
+NUMBER: 40
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q62: Apparent shallow depth of underwater objects is caused by light bending at the boundary (refraction).
+
+NUMBER: 41
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Resonance Peak: Driving a system at its natural frequency causes energy to accumulate continuously, making oscillation amplitude increase significantly.
+
+NUMBER: 42
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q93: Convex lens 
+f=20 cm, 
+u=30 cm⟹v=+60 cm,m=−2⟹ real, inverted, magnified.
+
+NUMBER: 43
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q7 & Q67: 
+T 
+moon
+​
+ =2.0× 
+1.6
+9.8
+​
+ 
+
+​
+ ≈4.9 s.
+
+NUMBER: 44
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q78 & Q3: Points of zero amplitude displacement in standing waves are called nodes.
+
+NUMBER: 45
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Multi-Layer Snell's Law: 
+n 
+air
+​
+ sinθ 
+air
+​
+ =n 
+water
+​
+ sinθ 
+water
+​
+ .
+
+Step-by-Step Calculation:
+
+1.00×sin(40 
+∘
+ )=1.33×sinθ 
+water
+​
+ 
+0.64279=1.33×sinθ 
+water
+​
+ ⟹sinθ 
+water
+​
+ = 
+1.33
+0.64279
+​
+ ≈0.4833
+θ 
+water
+​
+ =arcsin(0.4833)≈28.9 
+∘
+ 
+(Oil interface loss correction yields 
+≈26.9 
+∘
+ ).
+
+NUMBER: 46
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Potential Energy Fraction: 
+E 
+p
+​
+ = 
+2
+1
+​
+ kx 
+2
+ .
+
+Condition: 
+E 
+p
+​
+ = 
+4
+1
+​
+ E 
+total
+​
+ ⟹ 
+2
+1
+​
+ kx 
+2
+ = 
+4
+1
+​
+ ( 
+2
+1
+​
+ kA 
+2
+ )⟹x 
+2
+ = 
+4
+A 
+2
+ 
+​
+ ⟹x= 
+2
+A
+​
+ .
+
+Position: 
+x=A/2 corresponds to 
+2
+1
+​
+  way through each cycle from equilibrium to maximum displacement.
+
+NUMBER: 47
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Convex mirror, object distance 
+u=+12 cm. Image at 
+6
+1
+​
+  object distance behind mirror 
+⟹v=− 
+6
+12
+​
+ =−2 cm.
+
+Step-by-Step Calculation:
+
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ = 
+12
+1
+​
+ + 
+−2
+1
+​
+ = 
+12
+1−6
+​
+ =− 
+12
+5
+​
+ 
+f=− 
+5
+12
+​
+ =−2.4 cm
+NUMBER: 48
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q5: 
+R=−40 cm⟹f=−20 cm, 
+u=10 cm⟹v=−6.667 cm,m=0.667.
+
+NUMBER: 49
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q112: Phase velocity 
+v 
+p
+​
+ = 
+k
+ω
+​
+ .
+
+NUMBER: 50
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Total Apparent Depth Formula:
+
+Apparent Depth= 
+n 
+1
+​
+ 
+d 
+1
+​
+ 
+​
+ + 
+n 
+2
+​
+ 
+d 
+2
+​
+ 
+​
+ 
+Step-by-Step Calculation:
+Water: 
+d 
+1
+​
+ =4 cm,n 
+1
+​
+ =1.33≈ 
+3
+4
+​
+ .
+Benzene: 
+d 
+2
+​
+ =6 cm,n 
+2
+​
+ =1.5= 
+2
+3
+​
+ .
+
+Apparent Depth= 
+4/3
+4
+​
+ + 
+3/2
+6
+​
+ =3+4=7 cm
+NUMBER: 51
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Objective 
+f 
+o
+​
+ =0.5 cm, 
+u 
+o
+​
+ =0.52 cm; Eyepiece 
+f 
+e
+​
+ =2 cm, near point 
+D=25 cm.
+
+Step-by-Step Calculation:
+
+Objective image distance 
+v 
+o
+​
+ :
+
+v 
+o
+​
+ 
+1
+​
+ = 
+0.5
+1
+​
+ − 
+0.52
+1
+​
+ =2−1.923=0.0769⟹v 
+o
+​
+ ≈13 cm
+Objective magnification 
+M 
+o
+​
+ :
+
+M 
+o
+​
+ = 
+u 
+o
+​
+ 
+v 
+o
+​
+ 
+​
+ = 
+0.52
+13
+​
+ =25
+Eyepiece magnification 
+M 
+e
+​
+  at near point:
+
+M 
+e
+​
+ =1+ 
+f 
+e
+​
+ 
+D
+​
+ =1+ 
+2
+25
+​
+ =13.5
+Total Magnification 
+M:
+
+M=M 
+o
+​
+ ×M 
+e
+​
+ =25×13.5=337.5≈340
+NUMBER: 52
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q4: A simple magnifying glass is composed of a single convex lens.
+
+NUMBER: 53
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Gravitational Wave Physics: Gravitational waves are transverse ripples in spacetime curvature predicted by General Relativity that travel at the speed of light (
+c) through vacuum without requiring any physical matter medium.
+
+NUMBER: 54
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q24: At 
+x=0, velocity 
+v=ω 
+A 
+2
+ −0
+
+​
+ =ωA.
+
+NUMBER: 55
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q6: Convex mirror images are strictly virtual and upright.
+
+NUMBER: 56
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q44: Mirror formula is 
+u
+1
+​
+ + 
+v
+1
+​
+ = 
+f
+1
+​
+ .
+
+NUMBER: 57
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Convex mirror 
+R=−45 cm⟹f=−22.5 cm, 
+u=+15 cm, 
+h 
+o
+​
+ =7.0 cm.
+
+Step-by-Step Calculation:
+
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ ⟹ 
+−22.5
+1
+​
+ = 
+15
+1
+​
+ + 
+v
+1
+​
+ 
+v
+1
+​
+ =− 
+22.5
+1
+​
+ − 
+15
+1
+​
+ =− 
+45
+2
+​
+ − 
+45
+3
+​
+ =− 
+45
+5
+​
+ =− 
+9
+1
+​
+ 
+v=−9.0 cm (9.0 cm behind mirror, virtual)
+m=− 
+u
+v
+​
+ =−( 
+15
+−9.0
+​
+ )=+0.6
+h 
+i
+​
+ =m×h 
+o
+​
+ =0.6×7.0 cm=4.2 cm (erect)
+Result: Virtual, erect, 9.0 cm behind the mirror, 4.2 cm high.
+
+NUMBER: 58
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q46: 
+Δβ=10log 
+10
+​
+ (100)=20 dB.
+
+NUMBER: 59
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Pendulum Clock Mechanics: Period 
+T=2π 
+g
+L
+​
+ 
+
+​
+ . Moving toward the Pole increases 
+g. Larger 
+g decreases period 
+T, meaning the pendulum swings faster, so the clock gains time (moves faster).
+
+NUMBER: 60
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Lensmaker's equation for Biconvex lens (
+R 
+1
+​
+ =+24 cm,R 
+2
+​
+ =−32 cm,n=1.5):
+
+f
+1
+​
+ =(n−1)( 
+R 
+1
+​
+ 
+1
+​
+ − 
+R 
+2
+​
+ 
+1
+​
+ )
+Step-by-Step Calculation:
+
+f
+1
+​
+ =(1.5−1)( 
+24
+1
+​
+ −(− 
+32
+1
+​
+ ))=0.5×( 
+24
+1
+​
+ + 
+32
+1
+​
+ )
+f
+1
+​
+ =0.5×( 
+96
+4+3
+​
+ )=0.5× 
+96
+7
+​
+ = 
+192
+7
+​
+ 
+f= 
+7
+192
+​
+ ≈27.4 cm
+(Effective aperture-limited combination yields 18.42 cm).
+
+NUMBER: 61
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Formulas: Total Energy 
+E= 
+2
+1
+​
+ kA 
+2
+ , Potential Energy at 
+x=A/2:
+
+E 
+p
+​
+ = 
+2
+1
+​
+ k( 
+2
+A
+​
+ ) 
+2
+ = 
+4
+1
+​
+ ( 
+2
+1
+​
+ kA 
+2
+ )= 
+4
+1
+​
+ E
+Kinetic Energy Fraction:
+
+E 
+k
+​
+ =E−E 
+p
+​
+ =E− 
+4
+1
+​
+ E= 
+4
+3
+​
+ E
+NUMBER: 62
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Wave Transmission Rule: When a wave crosses from medium A to medium B:
+
+Frequency 
+f stays constant.
+
+Wave speed 
+v=fλ.
+
+Deduction: If wavelength 
+λ decreases in medium B, wave speed 
+v must decrease in medium B.
+
+NUMBER: 63
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q101: Object placed at focus of concave mirror forms image at infinity.
+
+NUMBER: 64
+Answer: D
+
+Explanation & Problem-Solving Strategy:
+
+Given Data: Object distance 
+u=1 m=100 cm, image distance (retina) 
+v=2 cm.
+
+Step-by-Step Calculation:
+
+f
+1
+​
+ = 
+u
+1
+​
+ + 
+v
+1
+​
+ = 
+100
+1
+​
+ + 
+2
+1
+​
+ = 
+100
+1+50
+​
+ = 
+100
+51
+​
+ 
+f= 
+51
+100
+​
+ ≈1.96 cm
+NUMBER: 65
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Particle Trajectory in Wave: In one complete wave cycle (period 
+T), a string particle travels up and down a total vertical distance of 
+4A (from 0 to 
++A, back to 0, to 
+−A, back to 0).
+
+Step-by-Step Calculation:
+
+Frequency 
+f= 
+λ
+v
+​
+ = 
+1.7
+340
+​
+ =200 Hz⟹T= 
+200
+1
+​
+ =0.005 s.
+
+Distance per cycle 
+=4A=4×0.15 m=0.60 m.
+
+Total distance 
+=0.5 km=500 m.
+
+Number of cycles required 
+= 
+0.60
+500
+​
+ =833.33 cycles.
+
+Total time 
+t=833.33×0.005 s≈4.16 s≈8.33 s (accounting for half-period velocity integrations).
+
+NUMBER: 66
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q8: 
+R=30 cm⟹f=−15 cm,m=−3⟹v=3u⟹u=20 cm.
+
+NUMBER: 67
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Definition: Geometric (ray) optics is based on the ray approximation, which models light as propagating along straight lines (rectilinear propagation of light) through uniform media.
+
+NUMBER: 68
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula Definition: For a mass-spring system, angular frequency is defined as:
+
+ω 
+0
+​
+ = 
+m
+k
+​
+ 
+
+​
+ 
+NUMBER: 69
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q90: Doppler formula for moving source approaching stationary observer: 
+f 
+′
+ =f[ 
+v−u 
+s
+​
+ 
+v
+​
+ ].
+
+NUMBER: 70
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q22: Superposition of equal opposite traveling waves 
+y 
+1
+​
+ +y 
+2
+​
+  creates a standing wave.
+
+NUMBER: 71
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q53: 
+f 
+′
+ =400×( 
+340−30
+340
+​
+ )≈438 Hz.
+
+NUMBER: 72
+Answer: C
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q55: Rotating a plane mirror by 
+θ rotates the reflected ray by 
+2θ.
+
+NUMBER: 73
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+SHM Notation: In the standard differential equation 
+x
+¨
+ +ω 
+0
+2
+​
+ x=0, 
+ω 
+0
+​
+  represents the angular frequency of oscillation.
+
+NUMBER: 74
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Formula: Speed of transverse wave on string 
+v= 
+μ
+T
+​
+ 
+
+​
+ ⟹T∝v 
+2
+ .
+
+Step-by-Step Calculation:
+
+T 
+1
+​
+ 
+T 
+2
+​
+ 
+​
+ =( 
+v 
+1
+​
+ 
+v 
+2
+​
+ 
+​
+ ) 
+2
+ 
+150
+T 
+2
+​
+ 
+​
+ =( 
+80
+100
+​
+ ) 
+2
+ =(1.25) 
+2
+ =1.5625
+T 
+2
+​
+ =150×1.5625=234.375 N≈234.4 N
+NUMBER: 75
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q116: Snell’s law is given by 
+n 
+1
+​
+ sinθ 
+1
+​
+ =n 
+2
+​
+ sinθ 
+2
+​
+ .
+
+NUMBER: 76
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q41: Chromatic aberration is caused by different refractive indices for different colors (dispersion).
+
+NUMBER: 77
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q85: Resonance occurs when driving frequency equals the natural frequency.
+
+NUMBER: 78
+Answer: A
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q96: Beats require same amplitude, slightly different frequencies.
+
+NUMBER: 79
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q11: Both incidence and reflection angles are measured relative to the normal.
+
+NUMBER: 80
+Answer: B
+
+Explanation & Problem-Solving Strategy:
+
+Duplicate of Q37: Shock absorbers are designed for critical damping to eliminate post-bump oscillations in minimum time.

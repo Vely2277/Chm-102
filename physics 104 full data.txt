@@ -1,0 +1,1819 @@
+TEST REVISION GUIDE
+1. A wave on a string is an 
+example of a transverse 
+wave. Which of the 
+following is an example of a 
+longitudinal wave?
+ A) Light wave
+ B) Ripple on a pond
+ C) Sound wave in a solid
+ D) Sound wave in air
+2. A particle in SHM has 
+acceleration –4.3 cm/s² at x 
+= 3.0 cm. The motion is 
+SHM if the ratio a/x is:
+ A) constant
+ B) varying linearly with 
+time
+ C) maximum at 
+equilibrium
+ D) zero at extreme
+3. In a standing wave fixed 
+at both ends, at what point 
+is the total energy purely 
+kinetic?
+ A) The energy is always 
+purely kinetic
+ B) The energy is always 
+purely potential
+ C) When the string is 
+perfectly flat
+ D) None of the above
+4. A simple microscope 
+(magnifying glass) uses:
+ A) concave lens
+ B) convex lens
+ C) concave mirror
+ D) plane mirror
+5. A convex mirror has a 
+radius of curvature of 40 
+cm. Calculate the image 
+position and magnification 
+for an object placed 10 cm 
+from the mirror
+ A) 3.607 cm, 2.021
+ B) −6.667 cm, 0.667
+ C) 12.310 cm, 3.001
+ D) −9.001 cm, 0.821
+6. For a convex mirror, the 
+image is always:
+ A) real and inverted
+ B) virtual and upright
+ C) real and upright
+ D) virtual and inverted
+7. A simple pendulum on Earth 
+has period 2.0 s. On the Moon 
+(g ≈ 1.6 m/s²), its period 
+will be approximately:
+ A) 0.8 s
+ B) 2.0 s
+ C) 3.2 s
+ D) 4.9 s
+8. A concave mirror of 
+radius 30 cm forms a real 
+image three times object 
+size. Object distance is:
+ A) 15 cm
+ B) 20 cm
+ C) 30 cm
+ D) 45 cm
+9. In a damped harmonic 
+oscillator, the damping 
+force is often proportional 
+to:
+ A) displacement
+ B) velocity
+ C) acceleration
+ D) square of velocity
+10. A wave defined by the 
+equation (equation not 
+provided) is moving:H(x,t) 
+= 8\cos(3x + 2t)
+ A) To the right with speed 
+0.667 m/s
+ B) To the left with speed 
+0.667 m/s
+ C) To the right with speed 
+1.500 m/s
+ D) To the left with speed 
+1.500 m/s
+11. The law of reflection 
+states that the angle of 
+incidence equals the angle 
+of reflection, both 
+measured from:
+ A) the reflecting surface
+ B) the normal
+ C) the incident ray
+ D) the horizontal
+12. The magnifying power of 
+a simple microscope when 
+the image is at infinity is:
+ A) D/f
+ B) 1 + D/f
+ C) f/D
+ D) D/2f
+13. A transverse wave y = A 
+sin(kx – ωt) travels along a 
+string. The string is 
+stretched horizontally. The 
+resulting wave pattern 
+when another identical 
+wave(y2= Asin(Kx-wt) 
+travelling opposite is added 
+is? Having wavelength (λ) as 
+L
+ A) Standing wave with 
+nodes spaced L/2 m and 
+antinodes 2A
+ B) Constructive 
+interference; a travelling 
+wave with amplitude of 2A
+ C) Wave of frequency 2w
+ D) Destructive 
+interference; the 
+cancellation of the wave
+14. An astronomical 
+telescope has objective focal 
+length 100 cm, eyepiece 10 
+cm. Magnification in 
+normal adjustment is:
+ A) 0.1
+ B) 10
+ C) 100
+ D) 110
+15. A rectangular block of 
+diamond (refractive index 
+nw= 2.42) is placed inside a 
+water basin. A layer of oil 
+(no= 1.44) is poured on the 
+water surface (nw= 1.33). A 
+ray of light in air strikes the 
+oil surface at an angle of 
+incidence of 30°. Calculate 
+the angle of refraction of the 
+ray inside the diamond 
+(neglect any reflection 
+losses).
+A) 8.5°
+B) 11.9°
+C) 15.3°
+D) 19.7°
+16. A body is executing 
+SHM. Its acceleration is –
+3.0 cm/s² when 
+displacement is 2.5 cm. 
+What is its angular 
+frequency?
+ A) 0.83 rad/s
+ B) 1.09 rad/s
+ C) 1.20 rad/s
+ D) 2.20 rad/s
+17. In a power response 
+curve (power vs frequency), 
+if the quality factor (Q) of 
+the system is increased:
+ A) The curve becomes 
+taller and narrower
+ B) The curve becomes 
+shorter and narrower
+ C) The curve becomes 
+taller and wider
+ D) The curve becomes 
+shorter and wider
+18. A pipe of length L is open 
+at both ends. The 
+fundamental frequency is f. 
+If one end is closed, what is 
+the new fundamental 
+frequency?
+ A) 2f
+ B) f
+ C) f/4
+ D) f/2
+19. A simple pendulum has 
+length L = 1.0 m on Earth. If 
+taken to the moon where g = 
+1.6 m/s², its period is:
+ A) 2.0 s
+ B) 3.0 s
+ C) 5.0 s
+ D) 6.0 s
+20. A convex mirror has 
+radius of curvature 40 cm. 
+An object is placed 10 m 
+away. The image is located 
+approximately:
+ A) 0.2 m behind the 
+mirror
+ B) 0.2 m in front
+ C) 10 m behind
+ D) 5 m in front
+21. The normal modes of a 
+coupled system are special 
+patterns of motion where:
+ A) The oscillators move 
+completely independently 
+of each other
+ B) All parts of the system 
+move with the same 
+amplitude
+ C) The energy of the 
+system is zero
+ D) All parts of the system 
+move at the same, constant 
+frequency
+22. Two waves y₁ = A sin(kx 
+– ωt) and y₂ = A sin(kx + ωt) 
+superimpose. The resultant 
+is:
+ A) a travelling wave
+ B) a standing wave
+ C) beats
+ D) a pulse
+23. The intensity of sound is 
+proportional to the square 
+of:
+ A) frequency
+ B) amplitude
+ C) speed
+ D) wavelength
+24. A particle in SHM has 
+velocity v = ω√(A² – x²). At x = 
+0, the speed is:
+ A) zero
+ B) ωA
+ C) ω²A
+ D) A/ω
+25. If the frequency of a 
+source generating waves is 
+doubled, and the medium 
+stays the same, what 
+happens to the wavelength?
+ A) It is doubled
+ B) It is halved
+ C) It remains the same
+ D) It is quadrupled
+26. Which of the following is 
+NOT a necessary condition 
+for SHM?
+ A) Restoring force 
+proportional to 
+displacement
+ B) Acceleration opposite 
+to displacement
+ C) Constant period 
+independent of amplitude
+ D) Force proportional to 
+velocity
+27. A 0.5 kg mass on a spring 
+oscillates with amplitude 
+0.1 m and frequency 2 Hz. 
+The maximum kinetic 
+energy is:
+ A) 0.1 J
+ B) 0.2 J
+ C) 0.4 J
+ D) 0.8 J
+28. For a thin lens of radii of 
+curvature R₁ and R₂, the 
+lensmaker’s formula is:
+ A) 1/f = (n – 1)(1/R₁ –
+1/R₂)
+ B) 1/f = (n – 1)(1/R₁ + 
+1/R₂)
+ C) f = (n – 1)(R₁ + R₂)
+ D) f = R₁R₂/(n – 1)
+29. A mirror is rotated 
+through 45°. By how much 
+are the normal and the 
+reflected ray deviated?
+ A) 45°, 90°
+ B) 90°, 180°
+ C) 22.5°, 45°
+ D) 45°, 45°
+30. A pipe open at both ends 
+has fundamental frequency 
+256 Hz. If one end is closed, 
+the new fundamental is:
+ A) 128 Hz
+ B) 256 Hz
+ C) 512 Hz
+ D) 64 Hz
+31. Two transverse waves y₁ 
+= A sin(kx – ωt) and y₂ = A 
+sin(kx + ωt) travel on the 
+same string. If the 
+wavelength is L, the 
+resulting pattern is:
+ A) Standing wave with 
+nodes spaced L/2 and 
+antinodes of amplitude 2A
+ B) Constructive 
+interference forming a 
+travelling wave of 
+amplitude 2A
+ C) Wave of frequency 2ω
+ D) Destructive 
+interference
+32. A compound 
+microscope consists of:
+ A) two convex lenses
+ B) two concave lenses
+ C) one convex and one 
+concave
+ D) two mirrors
+33. A point object is placed 5 
+cm from a plane mirror. 
+The mirror is rotated 15°. 
+The arc length traced by the 
+image is (use π = 3.14):
+ A) 2.6 cm
+ B) 5.2 cm
+ C) 7.9 cm
+ D) 15.7 cm
+34. When light travels from 
+air into water (n = 1.33), its 
+speed:
+ A) increases
+ B) decreases
+ C) stays the same
+ D) depends on angle
+35. A suspension bridge 
+oscillates with a force 
+constant of 2 × 10⁷ N/m. If 
+the amplitude reaches 0.1 
+m, the bridge collapses. 
+How much energy is stored 
+in the system at collapse?
+A) 1.0 *10^5
+B) 5.0 * 10^5
+C) 1.0 * 10^4
+D) 2.0 * 10*4
+36. A convex lens of focal 
+length 20 cm. Object at 10 
+cm. Image is:
+ A) virtual, at 20 cm on 
+object side
+ B) real, at 20 cm on 
+opposite side
+ C) virtual, at 6.7 cm on 
+object side
+ D) real, at 6.7 cm
+37. A car shock absorber is 
+designed to be:
+ A) underdamped
+ B) critically damped
+ C) overdamped
+ D) undamped
+38. For a convex lens, when 
+the object is placed between 
+F and the lens, the image is:
+ A) real, inverted, 
+magnified
+ B) virtual, upright, 
+magnified
+ C) real, upright, 
+diminished
+ D) virtual, inverted, 
+diminished
+39. The reference intensity 
+I₀ in sound level 
+calculations is 
+approximately:
+ A) 10⁻¹² W/m²
+ B) 10⁻⁶ W/m²
+ C) 1 W/m²
+ D) 10³ W/m²
+40. A source emits sound of 
+frequency 500 Hz. An 
+observer hears 550 Hz. This 
+implies:
+ A) source and observer 
+moving away from each 
+other
+ B) observer moving 
+towards stationary source
+ C) source moving away 
+from stationary observer
+ D) both moving in same 
+direction at same speed
+41. Chromatic aberration in 
+a lens is caused by:
+ A) spherical shape
+ B) different refractive 
+indices for different colors
+ C) off-axis rays
+ D) dust on lens
+42. For a convex lens of 
+focal length 10 cm, its power 
+is:
+ A) 0.1 D
+ B) 1 D
+ C) 10 D
+ D) 100 D
+43. A 0.5 kg mass on a 
+spring oscillates with 
+amplitude 0.1 m and 
+frequency 2 Hz. The 
+maximum kinetic energy is: 
+(duplicate? Keep as is)
+ A) 0.1 J
+ B) 0.2 J
+ C) 0.4 J
+ D) 0.8 J
+44. The mirror formula is:
+ A) 1/u + 1/v = 2/R
+ B) 1/u + 1/v = 1/f
+ C) u + v = f
+ D) uv = f²
+45. In which of the following 
+systems is an image formed 
+that is upright, virtual, and 
+smaller than the object?
+ A) Concave mirror and 
+concave lens
+ B) Concave mirror and 
+convex lens
+ C) Convex mirror and 
+convex lens
+ D) Convex mirror and 
+concave lens
+46. If the sound intensity is 
+increased by a factor of 100, 
+the decibel level increases 
+by:
+ A) 10 dB
+ B) 20 dB
+ C) 40 dB
+ D) 100 dB
+47. For an object in SHM 
+released from rest at x = A, 
+at what displacement is 
+kinetic energy equal to the 
+potential energy?
+ A) x = A/√2
+ B) x = A/2
+ C) x = 0
+ D) x = A
+48. The loudness of a sound 
+is most closely related to its:
+ A) Frequency
+ B) Wavelength
+ C) Amplitude
+ D) Speed
+49. A mass-spring system 
+has k = 100 N/m, m = 0.25 
+kg. Its angular frequency ω₀ 
+is:
+ A) 20 rad/s
+ B) 400 rad/s
+ C) 5 rad/s
+ D) 0.05 rad/s
+50. A pipe of length L is 
+open at both ends. The 
+fundamental frequency of 
+the pipe is f. If one end is 
+now closed, what is the new 
+fundamental frequency?
+ A) 2f
+ B) 4f
+ C) 8f
+ D) 16f
+51. The speed of sound in air 
+at 25°C is approximately:
+ A) 330 m/s
+ B) 343 m/s
+ C) 300 m/s
+ D) 350 m/s
+52. A concave mirror 
+produces a real image three 
+times the size of the object. 
+If focal length is 15 cm, 
+object distance is:
+ A) 10 cm
+ B) 20 cm
+ C) 30 cm
+ D) 45 cm
+53. A train whistle at 400 Hz 
+approaches you at 30 m/s. 
+Speed of sound = 340 m/s. 
+The heard frequency is 
+approximately:
+ A) 365 Hz
+ B) 400 Hz
+ C) 438 Hz
+ D) 470 Hz
+54. Which of the following is 
+the best definition of a 
+wave?
+ A) The movement of 
+matter from one location to 
+another
+ B) A disturbance that 
+transfers energy from one 
+point to another without 
+transferring matter
+ C) A force that propagates 
+through a vacuum
+ D) The oscillation of a 
+single particle
+55. When a plane mirror is 
+rotated by an angle θ, the 
+reflected ray rotates by:
+ A) θ/2
+ B) θ
+ C) 2θ
+ D) 4θ
+56. The Doppler effect for 
+light is used in:
+ A) radar guns
+ B) sonar
+ C) astronomical redshift
+ D) ultrasonic imaging
+57. A concave mirror has 
+focal length 15 cm. An object 
+is placed 20 cm in front. The 
+image is:
+ A) virtual, upright, 
+magnified
+ B) real, inverted, 
+magnified
+ C) real, inverted, 
+diminished
+ D) virtual, inverted, same 
+size
+58. Geometric optics can 
+explain all the following 
+properties except:
+ A) Diffraction
+ B) Reflection
+ C) Polarization
+ D) Refraction
+59. An ultrasound machine 
+used in medical imaging 
+primarily relies on which 
+wave phenomenon?
+ A) Diffraction
+ B) The Doppler effect
+ C) Reflection (echo)
+ D) Electromagnetic 
+induction
+60. The wave equation ∂²J/∂x² 
+= (1/v²) ∂²J/∂t² describes:
+ A) only transverse waves
+ B) only longitudinal 
+waves
+ C) any wave with constant 
+phase velocity
+ D) only electromagnetic 
+waves
+61. Sound waves in air are:
+ A) transverse
+ B) longitudinal
+ C) both transverse and 
+longitudinal
+ D) neither
+62. A fish appears to be at a 
+shallower depth than it 
+actually is due to:
+ A) reflection
+ B) refraction
+ C) dispersion
+ D) diffraction
+63. Two waves travelling in 
+the same direction are out 
+of phase by 180°. When they 
+interfere, the result is:
+ A) Constructive 
+interference
+ B) Destructive 
+interference
+ C) Diffraction
+ D) Resonance
+64. The near point of a 
+normal eye is about:
+ A) 25 cm
+ B) 50 cm
+ C) 100 cm
+ D) infinity
+65. A convex rear-view 
+mirror has radius 40 cm. 
+Object at 10 m. Image 
+distance is:
+ A) –0.195 m
+ B) –0.5 m
+ C) +0.195 m
+ D) +0.5 m
+66. A point object is placed 
+10 cm in front of a plane 
+mirror. If the mirror is 
+rotated 10°, the image 
+moves along an arc of 
+radius:
+ A) 10 cm
+ B) 20 cm
+ C) 30 cm
+ D) 40 cm
+67. A simple pendulum on 
+Earth has period 2.0 s. On the 
+Moon (g ≈ 1.6 m/s²), its 
+period will be approximately: 
+(duplicate? Keep)
+ A) 0.8 s
+ B) 2.0 s
+ C) 3.2 s
+ D) 4.9 s
+68. The wave number k is 
+related to wavelength λ by:
+ A) k = 2πλ
+ B) k = λ/(2π)
+ C) k = 2π/λ
+ D) k = 1/λ
+69. A ray of light enters a 
+glass block (n=1.5) from air 
+at 45°. The angle of 
+refraction is approximately:
+ A) 28°
+ B) 45°
+ C) 60°
+ D) 90°
+70. If an echo returns to the 
+transducer 100 ms after the 
+pulse is transmitted, how 
+deep is the reflector in soft 
+tissue? (Speed of sound = 
+1540 m/s)
+ A) 7.7 cm
+ B) 15.4 cm
+ C) 30.8 cm
+ D) 1.54 cm
+71. In SHM, the total energy 
+is:
+ A) proportional to 
+amplitude
+ B) proportional to square 
+of amplitude
+ C) independent of 
+amplitude
+ D) zero at equilibrium
+72. The image formed by a 
+plane mirror is:
+ A) real and inverted
+ B) virtual and upright
+ C) real and upright
+ D) virtual and inverted
+73. A mass-spring system 
+has k = 100 N/m, m = 0.25 
+kg. Its angular frequency ω₀ 
+is: (duplicate)
+ A) 20 rad/s
+ B) 400 rad/s
+ C) 5 rad/s
+ D) 0.05 rad/s
+74. Which of the following 
+requires a material medium 
+for propagation?
+ A) Radio waves
+ B) Light waves
+ C) Sound waves
+ D) X-rays
+75. Spherical aberration in 
+lenses can be reduced by:
+ A) using a stop
+ B) using a doublet
+ C) increasing aperture
+ D) using plane surfaces
+76. A chest is 20 m below sea 
+water (n = 1.34). Its 
+apparent depth is:
+ A) 14.9 m
+ B) 20 m
+ C) 26.8 m
+ D) 10 m
+77. Suppose a diving board 
+with no one on it bounces 
+up and down in SHM with a 
+frequency of 6.00 Hz. The 
+board has an effective mass
+of 10.0 kg. What is the 
+frequency of the SHM of an 
+80.0 kg diver on the board?
+ A) 0.75 Hz
+ B) 2.00 Hz
+ C) 3.00 Hz
+ D) 1.50 Hz
+78. In a standing wave on a 
+string fixed at both ends, a 
+point where displacement is 
+always zero is called:
+ A) antinode
+ B) node
+ C) crest
+ D) trough
+79. A pendulum of length L 
+= 1.0 m on Earth has period 
+T. If length is doubled, new 
+period is:
+ A) T/2
+ B) T
+ C) T√2
+ D) 2T
+80. A monochromatic light 
+of frequency 5.09×10¹⁴ Hz 
+enters a medium of 
+refractive index 1.66 at 55°. 
+The angle of refraction is:
+ A) 30°
+ B) 35°
+ C) 40°
+ D) 45°
+81. The speed of light in the 
+medium of Q80 is:
+ A) 1.8×10⁸ m/s
+ B) 2.0×10⁸ m/s
+ C) 2.5×10⁸ m/s
+ D) 3.0×10⁸ m/s
+82. A glass block (n=1.52) is 
+in water (n=1.33). A ray 
+strikes oil (n=1.44) at 38°. 
+Find angle of refraction at 
+water-glass interface (use 
+sequential Snell’s law):
+ A) 23.9°
+ B) 30.0°
+ C) 38.0°
+ D) 45.2°
+83. The magnification m for 
+a mirror is given by:
+ A) –v/u
+ B) v/u
+ C) –u/v
+ D) f/u
+84. Nearsightedness 
+(myopia) is corrected using:
+ A) convex lens
+ B) concave lens
+ C) cylindrical lens
+ D) plane glass
+85. Resonance occurs when 
+driving frequency is equal 
+to:
+ A) damping frequency
+ B) natural frequency
+ C) half the natural 
+frequency
+ D) twice the natural 
+frequency
+86. A diverging lens always 
+produces an image that is:
+ A) real and inverted
+ B) virtual and upright
+ C) real and upright
+ D) virtual and inverted
+87. An object of height 1.8 
+cm is 100 cm from a concave 
+mirror. Image height is 0.9 
+cm, inverted. Focal length 
+is:
+ A) –33.3 cm
+ B) +33.3 cm
+ C) –66.7 cm
+ D) +66.7 cm
+88. Critical damping occurs 
+when:
+ A) b² < 4mk
+ B) b² = 4mk
+ C) b² > 4mk
+ D) b = 0
+89. Sound waves of 
+frequency 340 Hz are 
+emitted, and the echo is 
+received after 0.02 s. If the 
+distance between the source 
+and reflector is 3.0 m, the 
+speed of sound in the 
+medium is:
+ A) 6 m/s
+ B) 300 m/s
+ C) 340 m/s
+ D) 1020 m/s
+90. If a source moves 
+toward a stationary 
+observer at speed u_s (less 
+than sound speed v), the 
+observed frequency f' is:
+ A) f' = f (v/(v – u_s))
+ B) f' = f (v/(v + u_s))
+ C) f' = f ((v + u_s)/v)
+ D) f' = f ((v – u_s)/v)
+91. The absolute refractive 
+index of a medium is 
+defined as:
+ A) speed in medium / 
+speed in vacuum
+ B) speed in vacuum / 
+speed in medium
+ C) speed in air / speed in 
+medium
+ D) speed in medium / 
+speed in air
+92. In a standing wave, the 
+energy is:
+ A) purely kinetic at nodes
+ B) purely potential at 
+antinodes
+ C) partly kinetic and 
+partly potential everywhere
+ D) constant at all points
+93. A converging lens has a 
+focal length of 20 cm. An 
+object is placed 30 cm from 
+the lens. The image is:
+ A) virtual, upright, 
+magnified
+ B) real, inverted, 
+magnified
+ C) real, inverted, 
+diminished
+ D) virtual, inverted, same 
+size
+94. A function J(x,t) = (x –
+vt)⁴ is a solution of the wave 
+equation. This implies:
+ A) it represents a 
+standing wave
+ B) it represents a wave 
+travelling to the right
+ C) it is not a wave
+ D) v must be zero
+95. When light goes from 
+water (n=1.33) to air, the 
+critical angle is about:
+ A) 49°
+ B) 90°
+ C) 41°
+ D) 0°
+96. Beats are produced by 
+superposition of two waves 
+with:
+ A) same amplitude, 
+slightly different 
+frequencies
+ B) same frequency, 
+different amplitudes
+ C) same phase, same 
+frequency
+ D) opposite phases
+97. Which of the following is 
+an example of resonance?
+ A) A pendulum swinging 
+in air
+ B) A singer breaking a 
+glass
+ C) A door closing slowly
+ D) A mass on a spring in 
+oil
+98. For a plane slab, the 
+emergent ray is:
+ A) parallel to the incident 
+ray
+ B) perpendicular to the 
+incident ray
+ C) deviated by an angle 
+depending on thickness
+ D) always normal to the 
+surface
+99. A simple microscope 
+has focal length 5 cm. The 
+maximum angular 
+magnification (image at 
+near point) is:
+ A) 5
+ B) 6
+ C) 10
+ D) 25
+100. In a compound 
+microscope, objective focal 
+length = 1 cm, eyepiece = 5 
+cm, tube length = 20 cm. 
+Approximate magnification 
+(near point 25 cm) is:
+ A) 100
+ B) 200
+ C) 400
+ D) 500
+101. An object is placed at 
+the focal point of a concave 
+mirror. The image is
+ A) at infinity
+ B) at the center of 
+curvature
+ C) at the mirror surface
+ D) virtual and magnified
+102. Noise cancellation 
+headphones work on the 
+principle of
+ A) constructive 
+interference
+ B) destructive 
+interference
+ C) resonance
+ D) Doppler effect
+103. The distance between 
+two consecutive nodes in a 
+standing wave is
+ A) λ/4
+ B) λ/2
+ C) λ
+ D) 2λ
+104. In a transverse wave, 
+the particle vibration is
+ A) parallel to wave 
+propagation
+ B) perpendicular to wave 
+propagation
+ C) at 45° to propagation
+ D) random
+105. Power of a lens is 
+measured in
+ A) meters
+ B) diopters
+ C) hertz
+ D) watts
+106. A lens has radii of 
+curvature 30 cm (convex) 
+and 20 cm (concave). n = 
+1.5. Focal length in air is
+ A) 12 cm
+ B) 24 cm
+ C) –24 cm
+ D) 60 cm
+107. A convex lens of focal 
+length 25 cm has power
+ A) 0.04 D
+ B) 4 D
+ C) 25 D
+ D) 250 D
+108. Chromatic aberration 
+is corrected by:
+ A) achromatic doublet
+ B) parabolic mirror
+ C) convex lens only
+ D) concave mirror
+109. If the observed 
+frequency from a source is 
+550 Hz and the actual 
+frequency of the source is 
+500 Hz, which of the 
+following is true?
+ A) The observer and 
+source are moving away 
+from each other
+ B) The observer is 
+moving towards a 
+stationary source
+ C) The observer and the 
+source are moving towards 
+each other
+ D) The source is moving 
+towards a stationary 
+observer
+110. Which of the following 
+is true of a concave mirror 
+when the object is placed 
+between F and C?
+ A) The image is real and 
+smaller than the object
+ B) The image is inverted 
+and larger than the object
+ C) The image is inverted 
+and the same size as the 
+object
+ D) The image is smaller 
+than the object and inverted
+111. A rectangular block of 
+diamond with refractive 
+index 1.52 is placed inside a 
+water basin. A layer of oil is 
+poured on the water 
+surface. A ray of light 
+strikes the oil surface at an 
+angle of 30°. Calculate the 
+angle of refraction. 
+(open‑ended)
+A) 8.5°
+B) 11.9°
+C) 15.3°
+D) 19.7°
+112. The phase velocity of a 
+wave is given by:
+ A) ω/k
+ B) k/ω
+ C) ωk
+ D) 2πω
+113. To see your full height 
+in a plane mirror, the 
+minimum mirror height 
+needed is:
+ A) equal to your height
+ B) half your height
+ C) twice your height
+ D) one quarter your 
+height
+114. For a progressive wave 
+y = A sin(kx – ωt + φ), the 
+quantity φ is the:
+ A) amplitude
+ B) wave number
+ C) initial phase
+ D) angular frequency
+115. A suspension bridge 
+oscillates with a force 
+constant of 2 × 10⁷ N/m. If 
+the amplitude reaches 0.1 
+m, the bridge collapses. 
+How much energy is stored 
+in the system at collapse? 
+(open‑ended)
+A) 1.0 *10^5
+B) 5.0 * 10^5
+C) 1.0 * 10^4
+D) 2.0 * 10*4
+116. Snell’s law is given by:
+ A) n₁ sinθ₁ = n₂sinθ₂
+ B) n₁ sinθ₂ = n₂ sinθ₁
+ C) sinθ₁ / sinθ₂ = 
+constant only for normal 
+incidence
+ D) θ₁ = θ₂ always
+117. A standing wave on a 
+string has nodes at x = 0, 0.5 
+m, 1.0 m, … The wavelength 
+is:
+ A) 0.5 m
+ B) 1.0 m
+ C) 1.5 m
+ D) 2.0 m
+118. If a wave function has 
+the form y = A sin(ωt + kx), 
+the wave is travelling in the:
+ A) +x direction
+ B) –x direction
+ C) +y direction
+ D) –y direction
+119. For a pipe open at both 
+ends, the fundamental 
+frequency f₀corresponds to 
+wavelength:
+ A) 2L
+ B) L
+ C) 4L
+ D) L/2
+120. In an astronomical 
+telescope in normal 
+adjustment, the 
+magnification is:
+ A) fo/ fe
+ B) fe + fo
+ C) (fo+ fe )/ fe
+ D) (fo – fe) / fe
+EXAMINATION REVISION 
+GUIDE
+1. A wave on a string is an 
+example of a transverse 
+wave. Which of the 
+following is an example of a 
+longitudinal wave?
+ A) Light wave
+ B) Ripple on a pond
+ C) Sound wave in a solid
+ D) Sound wave in air
+2. A simple harmonic 
+oscillator (SHO) will 
+oscillate with twice its 
+initial amplitude. What will 
+definitely be correct about 
+its total energy?
+ A) ½ of its original energy
+ B) ¼ of its original energy
+ C) 1/8 of its original 
+energy
+ D) None of the above
+3. In a standing wave on a 
+string fixed at both ends, 
+points of zero displacement 
+are called:
+ A) Antinodes
+ B) Nodes
+ C) Crests
+ D) Troughs
+4. The intensity of an 
+ultrasound beam decreases 
+with distance because:
+ A) The frequency 
+decreases with distance of 
+the source
+ B) The amplitude 
+increases with distance of 
+the source
+ C) The velocity of sound 
+decreases with the distance 
+of the source
+ D) The energy spreads 
+over a large spherical area 
+as distance increases
+5. For a convex lens, when 
+the object is placed between 
+F and the lens, the image is:
+ A) real, inverted, 
+magnified
+ B) virtual, upright, 
+magnified
+ C) real, upright, 
+diminished
+ D) virtual, inverted, 
+diminished
+6. The absolute refractive 
+index of a medium is 
+defined as:
+ A) speed in medium / 
+speed in vacuum
+ B) speed in vacuum / 
+speed in medium
+ C) speed in air / speed in 
+medium
+ D) speed in medium / 
+speed in air
+7. In a vessel, a layer of 
+benzene (n₁ = 1.50, 6 cm 
+deep) floats on water (n₂ = 
+1.33, 4 cm deep). Determine 
+the apparent thickness of 
+the benzene when viewed 
+through air.
+ A) 7.0 cm
+ B) 4.0 cm
+ C) 5.0 cm
+ D) 6.0 cm
+8. A concave mirror has 
+focal length 15 cm. An object 
+is placed 20 cm in front. The 
+image is:
+ A) virtual, upright, 
+magnified
+ B) real, inverted, 
+magnified
+ C) real, inverted, 
+diminished
+ D) virtual, inverted, same 
+size
+9. A mass-spring system has
+k = 100 N/m, m = 0.25 kg. Its 
+angular frequency ω₀ is:
+ A) 20 rad/s
+ B) 400 rad/s
+ C) 5 rad/s
+ D) 0.05 rad/s
+10. The equation for a 
+particular damped simple 
+harmonic motion is: ẍ + 
+6ẋ + 8x = 0. Clearly, 
+this system is?
+ A) Overdamped
+ B) Critically damped
+ C) Underdamped
+ D) None of the above
+11. A pipe open at both ends 
+has fundamental frequency 
+256 Hz. If one end is closed, 
+the new fundamental is:
+ A) 128 Hz
+ B) 256 Hz
+ C) 512 Hz
+ D) 64 Hz
+12. Which of the following is 
+true of a pendulum 
+oscillating at its two normal 
+modes?
+ A) The two are oscillating 
+at the same frequency
+ B) The two are oscillating 
+at different frequencies
+ C) The two oscillations 
+are always in phase
+ D) The two oscillations 
+have different amplitudes 
+but the same frequency
+13. The image formed by a 
+plane mirror is:
+ A) real and inverted
+ B) virtual and upright
+ C) real and upright
+ D) virtual and inverted
+14. A diverging lens always 
+produces an image that is:
+ A) real and inverted
+ B) virtual and upright
+ C) real and upright
+ D) virtual and inverted
+15. For a pipe open at both 
+ends, the fundamental 
+wavelength is:
+ A) 2L
+ B) L
+ C) 4L
+ D) L/2
+16. In a simple harmonic 
+body in 1 dimension (x), if 
+the acceleration of the body 
+is -4.0 cm/s² when the 
+position from its original 
+position (x) = 2.0 cm. The 
+period of oscillation is:
+ A) 3.142 s
+ B) 4.443 s
+ C) 1.414 s
+ D) 2.00 s
+17. The Doppler effect refers 
+to the change in observed 
+frequency due to:
+ A) Relative motion 
+between source and 
+observer
+ B) The medium’s 
+temperature
+ C) The amplitude of the 
+wave
+ D) The intensity of the 
+sound
+18. Which of the following 
+optical aberrations is solved 
+by grinding glasses of 
+different optical indices to 
+make the lens?
+ A) Chromatic aberration
+ B) Far-sightedness
+ C) Spherical aberration
+ D) Near-sightedness
+19. Suppose that light 
+passes from air to water. 
+Which of the following is 
+true?
+ A) Frequency decreases
+ B) Wavelength increases
+ C) Frequency decreases 
+(duplicate)
+ D) Wavelength decreases
+20. The reference intensity 
+I₀ for sound level 
+calculations is 
+approximately:
+ A) 10⁻¹² W/m²
+ B) 10⁻⁶ W/m²
+ C) 1 W/m²
+ D) 10³ W/m²
+21. A bat emits 56 kHz 
+ultrasound when flying 10 
+m/s towards a stationary 
+moth. At what frequency 
+does the moth detect the 
+bat?
+ A) 5 kHz
+ B) 50 kHz
+ C) 51.52 kHz
+ D) 51.47 kHz
+22. A compound 
+microscope consists of:
+ A) two convex lenses
+ B) two concave lenses
+ C) one convex and one 
+concave
+ D) two mirrors
+23. To see your full height in 
+a plane mirror, the 
+minimum mirror height 
+needed is:
+ A) equal to your height
+ B) half your height
+ C) twice your height
+ D) one quarter your 
+height
+24. Consider the wave 
+equation
+The phase velocity of the 
+equation is: 
+A. 1.44
+B. 1.20 
+C. 1.00 
+D. 2.07
+25. A point object is placed 5 
+cm from a plane mirror. 
+The mirror is rotated 15°. 
+The arc length traced by the 
+image is (use π = 3.14):
+ A) 2.6 cm
+ B) 5.2 cm
+ C) 7.9 cm
+ D) 15.7 cm
+26. The wave equation ∂²J/∂x² 
+= (1/v²) ∂²J/∂t² describes:
+ A) only transverse waves
+ B) only longitudinal 
+waves
+ C) any wave with constant 
+phase velocity
+ D) only electromagnetic 
+waves
+27. Sound waves: I. 
+Longitudinal wave in air; II. 
+Transverse wave in air; III. 
+Longitudinal wave in solid; 
+IV. Transverse wave in 
+solid.
+ A) II and III only
+ B) III and IV only
+ C) I and III only
+ D) I and II only
+28. For a progressive wave y 
+= A sin(kx – ωt + φ), the 
+quantity φ is the:
+ A) amplitude
+ B) wave number
+ C) initial phase
+ D) angular frequency
+29. A beam of light strikes 
+the surface of water (n = 
+1.33) at an angle of 60°. 
+Determine the direction of 
+the reflected and the 
+refracted ray.
+ A) 30° reflected into the 
+air, 41° refracted into the 
+water
+ B) 60° reflected into the 
+air, 67° refracted into the 
+water
+ C) 30° reflected into the 
+air, 67° refracted into the 
+water
+ D) 60° reflected into the 
+air, 41° refracted into the 
+water
+30. In SHM, the total 
+mechanical energy is:
+ A) ½ mω²A²
+ B) ½ kA²
+ C) Both A and B
+ D) Zero at equilibrium
+31. How far must a boy 
+stand in front of a concave 
+spherical mirror with a 
+focal length of 6.0 cm to see 
+an erect image of his face 3 
+times its natural size
+ A) 36 cm
+ B) 80 cm
+ C) 40 cm
+ D) 60 cm
+32. A simple pendulum of 
+length L has period T = 
+2π√(L/g). This formula is valid 
+for
+ A) any amplitude
+ B) small angles (θ ≲ 10°)
+ C) only on Earth
+ D) only in vacuum
+33. An object of height 1.8 
+cm is 100 cm from a concave 
+mirror. Image height is 0.9 
+cm, inverted. Focal length is
+ A) –33.3 cm
+ B) +33.3 cm
+ C) –66.7 cm
+ D) +66.7 cm
+34. Which of the following is 
+a non‑mechanical wave
+ A) Sound wave
+ B) Water ripple
+ C) Light wave
+ D) Seismic P wave
+35. A ray of light enters a 
+glass block (n = 1.5) from air 
+at 45°. The angle of 
+refraction is approximately
+ A) 28°
+ B) 45°
+ C) 60°
+ D) 90°
+36. In a standing wave, the 
+energy is
+ A) purely kinetic at nodes
+ B) purely potential at 
+antinodes
+ C) partly kinetic and 
+partly potential everywhere
+ D) constant at all points
+37. Compute the position 
+and focal length of a 
+converging thin lens which 
+will project the image of a 
+lamp magnified 4 times on a 
+screen 10.0 m from the 
+lamp.
+ A) 8 m from the screen, 
+3.2 m
+ B) 10 m from the screen, 
+0.4 m
+ C) 12 m from the screen, 4 
+m
+ D) 8 m from the screen, 
+1.6 m
+38. A wave that requires a 
+material medium for 
+propagation is called
+ A) electromagnetic wave
+ B) mechanical wave
+ C) transverse wave
+ D) standing wave
+39. The critical angle for 
+water (n = 1.33) to air is 
+approximately
+ A) 49°
+ B) 41°
+ C) 90°
+ D) 0°
+40. A fish appears to be at a 
+shallower depth than it 
+actually is due to
+ A) reflection
+ B) refraction
+ C) dispersion
+ D) diffraction
+41. When a system is driven 
+at resonant frequency, the 
+amplitude (A) of the system
+ A) remains the same
+ B) decreases
+ C) becomes zero
+ D) increases
+42. A converging lens 
+(convex) has focal length 20 
+cm. An object is placed 30 
+cm from the lens. The image 
+is
+ A) virtual, upright, 
+magnified
+ B) real, inverted, 
+magnified
+ C) real, inverted, 
+diminished
+ D) virtual, inverted, same 
+size
+43. A pendulum on Earth 
+has period 2.0 s. If taken to 
+the Moon (g_moon = 1.6 
+m/s²), its period becomes 
+approximately
+ A) 0.8 s
+ B) 2.0 s
+ C) 3.2 s
+ D) 4.9 s
+44. In a standing wave on a 
+string fixed at both ends, a 
+point where displacement is 
+always zero is called
+ A) antinode
+ B) node
+ C) crest
+ D) trough
+45. A layer of oil (n = 1.45) 
+floats on water (n = 1.33). A 
+ray of light shines onto the 
+oil at an incident angle of 
+40°. Find the angle the ray 
+makes in the water.
+ A) 28.9°
+ B) 26.9°
+ C) 32.4°
+ D) 23.1°
+46. An object exhibits 
+simple harmonic motion. If 
+the body was released with 
+zero speed at a point away 
+from equilibrium, at what 
+point will the potential 
+energy equal ¼ of the total 
+energy
+ A) ¼ way through each 
+cycle
+ B) ⅓ way through each cycle
+ C) ½ way through each 
+cycle
+ D) ⅛ way through each cycle
+47. What is the focal length 
+of a convex spherical mirror 
+which forms an image at 1/6 
+of the object distance 
+located 12 cm from the 
+mirror
+ A) 2.4 cm
+ B) 1.7 cm
+ C) -2.4 cm
+ D) -1.7 cm
+48. A convex lens has a 
+radius of curvature of 
+40cm. Calculate the image 
+position and magnification 
+for an object placed 10 cm 
+from the lens
+ A) 3.607 cm, 2.021
+ B) −6.667 cm, 0.667
+ C) 12.310 cm, 3.001
+ D) −9.001 cm, 0.821
+49. The phase velocity of a 
+wave is given by
+ A) ω/k
+ B) k/ω
+ C) ωk
+ D) 2πω
+50. A container contains 
+water up to 4 cm and 
+benzene for the rest of 6 cm. 
+What will be the apparent 
+depth when the bottom of 
+the container is viewed 
+from the top? (n of H₂O = 
+1.33, benzene = 1.5)
+ A) 7 cm
+ B) 8 cm
+ C) 9 cm
+ D) 10 cm
+51. In a compound 
+microscope, the focal length 
+of the objective lens is 0.5 
+cm and that of the eyepiece 
+is 2 cm. The object is placed 
+at a distance of 0.52 cm 
+from the objective lens. If 
+the final image is formed at 
+the near point of the eye (25 
+cm), determine the total 
+magnification of the 
+microscope
+ A) 209
+ B) 337
+ C) 340
+ D) 401
+52. A simple microscope 
+(magnifying glass) uses
+ A) concave lens
+ B) convex lens
+ C) concave mirror
+ D) plane mirror
+53. Gravitational waves 
+were detected on 
+September 14, 2015. Which 
+of the following is true of 
+the waves
+ I. They are longitudinal
+ II. They are transverse
+ III. They require a 
+material medium
+ IV. They travel at the 
+speed of light
+ A) I and III only
+ B) II and IV only
+ C) Only II
+ D) Only I
+54. A particle in SHM has 
+velocity v = ω√(A² – x²). At x = 
+0, the speed is
+ A) zero
+ B) ωA
+ C) ω²A
+ D) A/ω
+55. For a convex mirror, the 
+image is always
+ A) real and inverted
+ B) virtual and upright
+ C) real and upright
+ D) virtual and inverted
+56. The mirror formula is
+ A) 1/u + 1/v = 2/R
+ B) 1/u + 1/v = 1/f
+ C) u + v = f
+ D) uv = f²
+57. An object 7.0 cm high is 
+placed 15 cm from a convex 
+spherical mirror of radius 
+45 cm. Describe the image 
+of the object formed
+ A) Real, erect, 45 cm 
+behind the mirror, 21.0 cm 
+high
+ B) Virtual, erect, 9.0 cm 
+behind the mirror, 4.2 cm 
+high
+ C) Virtual, erect, 45.0 cm 
+behind the mirror, 21.0 cm 
+high
+ D) Real, erect, 9.0 cm 
+behind the mirror, 4.2 cm 
+high
+58. If the sound intensity 
+increases by a factor of 100, 
+the decibel level increases 
+by
+ A) 10 dB
+ B) 20 dB
+ C) 40 dB
+ D) 100 dB
+59. The acceleration due to 
+gravity at the North Pole 
+and South Pole is slightly 
+larger than that of the 
+equator. If a woman moves 
+from a point on the equator 
+towards the North Pole, 
+which of the following is 
+true of the clock
+ A) The clock will move 
+faster
+ B) The clock will move 
+slower
+ C) The clock will not move 
+at all
+ D) None of the above
+60. A bi-convex lens with 
+radii of 24 cm and 32 cm. 
+Calculate the focal length if 
+the refractive index of the 
+lens is 1.5
+ A) 13.7 cm
+ B) 18.42 cm
+ C) 10.6 cm
+ D) 21 cm
+61. In SHM, when the 
+displacement is half the 
+amplitude (x = A/2), the 
+kinetic energy is what 
+fraction of the total energy?
+ A) 1/4
+ B) 1/2
+ C) 3/4
+ D) 1
+62. A wave A travelling to B 
+has its wavelength reduced. 
+What must be true of the 
+wave speed
+ A) Decreases in medium B
+ B) Stayed same
+ C) Depends only on the 
+wave frequency
+ D) Increased in medium B
+63. An object placed at the 
+focal point of a concave 
+mirror produces an image
+ A) at infinity
+ B) at the centre of 
+curvature
+ C) at the mirror surface
+ D) virtual and magnified
+64. You can change the focal 
+length of your eye lens by a 
+mechanism called 
+accommodation. Assuming 
+the lens-retina distance is 2 
+cm. What is the focal length 
+of the eye lens when viewing 
+an object 1 m away
+ A) 0.67 m
+ B) 0.67 cm
+ C) 1.02 cm
+ D) 1.96 cm
+65. The speed of a 
+transverse wave on a string 
+is 340 m/s. If the 
+wavelength is 1.7 m and the 
+amplitude of the wave is 15 
+cm, how long does it take a 
+particle to travel a total 
+distance of 0.5 km
+ A) 1.47s
+ B) 20s
+ C) 8.33s
+ D) 4.33 × 10^4s
+66. A concave mirror of 
+radius 30 cm forms a real 
+image three times the object 
+size. The object distance is
+ A) 15 cm
+ B) 20 cm
+ C) 30 cm
+ D) 45 cm
+67. Geometric optics mainly 
+explores the properties of:
+ A) Interference of 2 
+coherent light
+ B) Rectilinear 
+propagation of light
+ C) Wave-particle duality
+ D) Polarization of 
+collimated light
+68. For a mass-spring 
+system, the angular 
+frequency ω₀is given by:
+ A) √(m/k)
+ B) √(k/m)
+ C) k/m
+ D) m/k
+69. If a source moves 
+toward a stationary 
+observer at speed u_s (less 
+than sound speed v), the 
+observed frequency f' is
+ A) f' = f [v/(v – u_s)]
+ B) f' = f [v/(v + u_s)]
+ C) f' = f [(v + u_s)/v]
+ D) f' = f [(v – u_s)/v]
+70. The superposition of 
+two waves y₁ = A sin(kx –
+ωt) and y₂ = A sin(kx + ωt) 
+produces
+ A) a travelling wave
+ B) a standing wave
+ C) beats
+ D) a pulse
+71. A train whistle at 400 Hz 
+approaches you at 30 m/s. 
+Speed of sound = 340 m/s. 
+The heard frequency is 
+approximately:
+ A) 365 Hz
+ B) 400 Hz
+ C) 438 Hz
+ D) 470 Hz
+72. When a plane mirror is 
+rotated through an angle θ, 
+the reflected ray rotates 
+through:
+ A) θ/2
+ B) θ
+ C) 2θ
+ D) 4θ
+73. The defining 
+equation for SHM is ẍ + 
+ω₀²x = 0. What does ω₀ represent?
+ A) Damping coefficient
+ B) Angular frequency
+ C) Phase constant
+ D) Amplitude
+74. The speed of a 
+transverse wave on a string 
+is 80 m/s and the tension T 
+of the string is F = 150 N. 
+What is the tension that will 
+lead to a speed of 100 m/s?
+ A) 187.5 N
+ B) 234.4 N
+ C) 120 N
+ D) 96 N
+75. Snell’s law is given by:
+ A) n₁ sinθ₁ = n₂ sinθ₂
+ B) n₁ sinθ₂ = n₂ sinθ₁
+ C) sinθ₁/sinθ₂ = constant 
+only at normal incidence
+ D) θ₁ = θ₂ always
+76. Chromatic aberration in 
+a lens is caused by:
+ A) spherical shape
+ B) different refractive 
+indices for different colours
+ C) off‑axis rays
+ D) dust on the lens
+77. Resonance occurs when 
+the driving frequency 
+equals the:
+ A) damping frequency
+ B) natural frequency
+ C) half the natural 
+frequency
+ D) twice the natural 
+frequency
+78. Beats are produced by 
+the superposition of two 
+waves with:
+ A) same amplitude, 
+slightly different 
+frequencies
+ B) same frequency, 
+different amplitudes
+ C) same phase, same 
+frequency
+ D) opposite phases
+79. The law of reflection 
+states that the angle of 
+incidence equals the angle 
+of reflection, both 
+measured from:
+ A) the reflecting surface
+ B) the normal
+ C) the incident ray
+ D) the horizontal
+80. Car shock absorbers are 
+designed to be:
+ A) underdamped
+ B) critically damped
+ C) overdamped
+ D) undamped

@@ -1,0 +1,200 @@
+﻿001|TEST-01|D|Sound wave in air.
+002|TEST-02|A|Constant.
+003|TEST-03|C|When the string is perfectly flat.
+004|TEST-04|B|Convex lens.
+005|TEST-05|B|No valid option; closest B.
+006|TEST-06|B|Virtual and upright.
+007|TEST-07|D|4.9 s.
+008|TEST-08|B|20 cm.
+009|TEST-09|B|Velocity.
+010|TEST-10|B|Left, .667 m/s.
+011|TEST-11|B|The normal.
+012|TEST-12|A|D/f.
+013|TEST-13|A|Standing wave, nodes L/2 apart, antinodes 2A.
+014|TEST-14|B|10.
+015|TEST-15|B|11.9 degrees.
+016|TEST-16|B|1.09 rad/s.
+017|TEST-17|A|Taller and narrower.
+018|TEST-18|D|f/2.
+019|TEST-19|C|5.0 s.
+020|TEST-20|A|.2 m behind.
+021|TEST-21|D|All parts have the same frequency.
+022|TEST-22|B|Standing wave.
+023|TEST-23|B|Amplitude.
+024|TEST-24|B|omega A.
+025|TEST-25|B|Wavelength halved.
+026|TEST-26|D|Force proportional to velocity.
+027|TEST-27|B|.4 J.
+028|TEST-28|A|1/f=(n-1)(1/R1-1/R2).
+029|TEST-29|A|45 degrees, 90 degrees.
+030|TEST-30|A|128 Hz.
+031|TEST-31|A|Standing, nodes L/2 apart, antinodes 2A.
+032|TEST-32|A|Two convex lenses.
+033|TEST-33|B|5.2 cm.
+034|TEST-34|B|Decreases.
+035|TEST-35|A|1.0e5 J.
+036|TEST-36|A|Virtual, 20 cm on object side.
+037|TEST-37|B|Critically damped.
+038|TEST-38|B|Virtual, upright, magnified.
+039|TEST-39|A|10^-12 W/m2.
+040|TEST-40|B|Observer toward stationary source.
+041|TEST-41|B|Different indices for different colors.
+042|TEST-42|C|10 D.
+043|TEST-43|C|.4 J.
+044|TEST-44|B|1/u+1/v=1/f.
+045|TEST-45|D|Convex mirror and convex lens.
+046|TEST-46|B|20 dB.
+047|TEST-47|A|x=A/sqrt(2).
+048|TEST-48|C|Amplitude.
+049|TEST-49|A|20 rad/s.
+050|TEST-50|D|No valid option; f/2.
+051|TEST-51|B|343 m/s.
+052|TEST-52|B|20 cm.
+053|TEST-53|C|438 Hz.
+054|TEST-54|B|Energy transfer without matter transfer.
+055|TEST-55|C|Reflected ray rotates 2theta.
+056|TEST-56|C|Astronomical redshift.
+057|TEST-57|B|Real, inverted, magnified.
+058|TEST-58|A|Diffraction.
+059|TEST-59|C|Reflection (echo).
+060|TEST-60|C|Any wave with constant phase velocity.
+061|TEST-61|B|Longitudinal.
+062|TEST-62|B|Refraction.
+063|TEST-63|B|Destructive interference.
+064|TEST-64|A|25 cm.
+065|TEST-65|A|-0.195 m.
+066|TEST-66|A|20 cm.
+067|TEST-67|D|4.9 s.
+068|TEST-68|C|k=2pi/lambda.
+069|TEST-69|A|28 degrees.
+070|TEST-70|A|No valid option.
+071|TEST-71|B|Proportional to amplitude squared.
+072|TEST-72|B|Virtual and upright.
+073|TEST-73|A|20 rad/s.
+074|TEST-74|C|Sound waves.
+075|TEST-75|A|Using a stop.
+076|TEST-76|A|14.9 m.
+077|TEST-77|B|2.00 Hz.
+078|TEST-78|B|Node.
+079|TEST-79|C|T sqrt(2).
+080|TEST-80|A|30 degrees.
+081|TEST-81|A|1.8e8 m/s.
+082|TEST-82|A|23.9 degrees.
+083|TEST-83|A|-v/u.
+084|TEST-84|B|Concave lens.
+085|TEST-85|B|Natural frequency.
+086|TEST-86|B|Virtual and upright.
+087|TEST-87|A|+33.3 cm.
+088|TEST-88|B|b^2=4mk.
+089|TEST-89|B|300 m/s.
+090|TEST-90|A|f'=f v/(v-us).
+091|TEST-91|B|Vacuum speed/medium speed.
+092|TEST-92|C|Partly kinetic and potential everywhere.
+093|TEST-93|B|Real, inverted, magnified.
+094|TEST-94|B|Wave traveling right.
+095|TEST-95|A|49 degrees.
+096|TEST-96|A|Same amplitude, slightly different frequencies.
+097|TEST-97|B|Singer breaking a glass.
+098|TEST-98|A|Parallel to incident ray.
+099|TEST-99|B|6.
+100|TEST-100|A|100.
+101|TEST-101|A|At infinity.
+102|TEST-102|B|Destructive interference.
+103|TEST-103|B|lambda/2.
+104|TEST-104|B|Perpendicular to propagation.
+105|TEST-105|B|Diopters.
+106|TEST-106|B|24 cm.
+107|TEST-107|B|4 D.
+108|TEST-108|A|Achromatic doublet.
+109|TEST-109|D|No unique option; approach is certain.
+110|TEST-110|B|Inverted and larger.
+111|TEST-111|B|No unique option; intended B.
+112|TEST-112|A|omega/k.
+113|TEST-113|B|Half your height.
+114|TEST-114|C|Initial phase.
+115|TEST-115|A|1.0e5 J.
+116|TEST-116|A|n1 sin(theta1)=n2 sin(theta2).
+117|TEST-117|B|1.0 m.
+118|TEST-118|B|-x.
+119|TEST-119|A|2L.
+120|TEST-120|A|fo/fe.
+121|EXAM-01|D|None of the above.
+122|EXAM-02|B|Nodes.
+123|EXAM-03|D|Energy spreads over a larger spherical area.
+124|EXAM-04|B|Virtual, upright, magnified.
+125|EXAM-05|B|Vacuum speed/medium speed.
+126|EXAM-06|B|4.0 cm.
+127|EXAM-07|B|Real, inverted, magnified.
+128|EXAM-08|A|20 rad/s.
+129|EXAM-09|A|Overdamped.
+130|EXAM-10|A|128 Hz.
+131|EXAM-11|B|Different frequencies.
+132|EXAM-12|B|Virtual and upright.
+133|EXAM-13|B|Virtual and upright.
+134|EXAM-14|A|2L.
+135|EXAM-15|A|4.443 s.
+136|EXAM-16|A|Relative motion.
+137|EXAM-17|A|Chromatic aberration.
+138|EXAM-18|D|Wavelength decreases.
+139|EXAM-19|A|10^-12 W/m2.
+140|EXAM-20|C|No valid option; about 57.7 kHz.
+141|EXAM-21|A|Two convex lenses.
+142|EXAM-22|B|Half your height.
+143|EXAM-23|B|Unresolved.
+144|EXAM-24|B|5.2 cm.
+145|EXAM-25|C|Any wave with constant phase velocity.
+146|EXAM-26|C|I and III only.
+147|EXAM-27|C|Initial phase.
+148|EXAM-28|D|60 degrees reflected, 41 degrees refracted.
+149|EXAM-29|C|Both A and B.
+150|EXAM-30|D|No valid option; 4 cm physically.
+151|EXAM-31|B|Small angles, about 10 degrees or less.
+152|EXAM-32|A|+33.3 cm.
+153|EXAM-33|C|Light wave.
+154|EXAM-34|A|28 degrees.
+155|EXAM-35|C|Partly kinetic and potential everywhere.
+156|EXAM-36|A|8 m from screen, f=1.6 m.
+157|EXAM-37|B|Mechanical wave.
+158|EXAM-38|A|49 degrees.
+159|EXAM-39|B|Refraction.
+160|EXAM-40|D|Increases.
+161|EXAM-41|B|Real, inverted, magnified.
+162|EXAM-42|D|4.9 s.
+163|EXAM-43|B|Node.
+164|EXAM-44|B|No valid option; about 44.4 degrees.
+165|EXAM-45|C|No valid option; x=A/2 at T/6 from an extreme.
+166|EXAM-46|C|-2.4 cm.
+167|EXAM-47|B|Unresolved.
+168|EXAM-48|A|omega/k.
+169|EXAM-49|A|7 cm.
+170|EXAM-50|C|337.
+171|EXAM-51|B|Convex lens.
+172|EXAM-52|B|II and IV only.
+173|EXAM-53|B|omega A.
+174|EXAM-54|B|Virtual and upright.
+175|EXAM-55|B|1/u+1/v=1/f.
+176|EXAM-56|B|Virtual, erect, 9 cm behind, 4.2 cm high.
+177|EXAM-57|B|20 dB.
+178|EXAM-58|A|Moves faster.
+179|EXAM-59|B|13.7 cm.
+180|EXAM-60|C|3/4.
+181|EXAM-61|A|Decreases.
+182|EXAM-62|A|At infinity.
+183|EXAM-63|D|1.96 cm.
+184|EXAM-64|C|No valid option; about 4.17 s.
+185|EXAM-65|B|20 cm.
+186|EXAM-66|B|Rectilinear propagation.
+187|EXAM-67|B|sqrt(k/m).
+188|EXAM-68|A|f'=f[v/(v-us)].
+189|EXAM-69|B|Standing wave.
+190|EXAM-70|C|438 Hz.
+191|EXAM-71|C|2theta.
+192|EXAM-72|B|Angular frequency.
+193|EXAM-73|B|234.4 N.
+194|EXAM-74|A|n1 sin(theta1)=n2 sin(theta2).
+195|EXAM-75|B|Different indices for different colors.
+196|EXAM-76|B|Natural frequency.
+197|EXAM-77|A|Same amplitude, slightly different frequencies.
+198|EXAM-78|B|The normal.
+199|EXAM-79|B|Critically damped.
+200|EXAM-80|B|Critically damped.
